@@ -16,6 +16,7 @@ export default function Navbar() {
                                 Healty
                                 <Text>
                                     Smiels
+                                    something updated
                                 </Text>
                             </Icon_text>
                         </Link>
