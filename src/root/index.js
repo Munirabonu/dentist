@@ -17,6 +17,5 @@ export default function Root() {
             {/* <Route path="*" component={NotFound} /> */}
         </Switch>
         </Router>
-        // it is for check commit with git
     )
 }
