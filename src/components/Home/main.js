@@ -3,33 +3,64 @@ import styled from "styled-components";
 export const Home_page = styled.div`
     width: 98%;
     margin: 0 auto;
-    height: 110vh;
+    height: 105vh;
     background: linear-gradient(to right, rgb(210,234,255),rgb(218,206,255));
-`
+    @media (max-width:1200px){
+        height: auto;
+    }
+    `
 export const Container = styled.div`
     width: 80%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    @media (max-width:1200px) {
+
+        grid-template-columns: 100%;
+        justify-content: center;
+        text-align: center;
+    }
 `
 export const Text = styled.div`
-    width: 50%;
     padding: 150px 0;
     color: rgb(25,49,57);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    @media (max-width:1200px){
+        padding:0;
+    }
 `
 export const Text_p = styled.p`
     font-size: 70px;
     line-height: 0.97;
+    @media (max-width:1200px){
+        font-size: 60px;
+    }
+    @media (max-width:900px) {
+        font-size: 50px;
+    }
+    @media (max-width:600px) {
+        font-size: 40px;
+    }
+    @media (max-width:500px) {
+        font-size: 30px;
+    }
 `
 export const Smile_text = styled.p`
      font-size: 20px;
+    @media (max-width:600px) {
+        font-size: 18px;
+    }
+    @media (max-width:500px) {
+        font-size: 15px;
+    }
 `
 export const Img = styled.img`
-    margin-top: 70px;
-    width: 55%;
-    height: 50%;
-    /* z-index: 2; */
-
+    bottom: -70px;
+    width: 90%;
+    margin:100px auto;
+    padding-bottom: 70px;
+    height: auto;
 `
 // rasmning fon qismidagi animation
 // export const After = styled.img`

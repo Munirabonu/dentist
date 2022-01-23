@@ -27,9 +27,13 @@ export const Text_Three = styled.p`
 export const Card = styled.div`
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 50px;
+    gap: 50px;
     justify-content:space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    @media (max-width:780px) {
+        grid-template-columns: 70%;
+        justify-content: center;
+    }
 `
 export const Item = styled.div`
 

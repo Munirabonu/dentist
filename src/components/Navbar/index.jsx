@@ -26,21 +26,19 @@ export default function Navbar() {
                         return (
                             <Item key={id}>
                                 <Link activeStyle={activeStyle} to={path} exact>
-                                {title}
                                 </Link>
                             </Item>
                         )
                     })}
-
-                    {/* <Ul>
+                    
                         <Item>Home</Item>
                         <Item>Blog</Item>
                         <Item>Doctors</Item>
                         <Item>Servies</Item>
                         <Item> Price G</Item>
-                        <Item>Contacts</Item> */}
+                        <Item>Contacts</Item> 
 
-                    </Ul>
+                     </Ul>
                 </Container>
             </Navbar_page>
         </div>
