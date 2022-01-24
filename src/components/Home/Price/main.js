@@ -1,0 +1,136 @@
+import styled from 'styled-components';
+import {CheckLg} from '@styled-icons/bootstrap/CheckLg';
+import {ArrowRightShort} from "@styled-icons/bootstrap/ArrowRightShort"
+
+export const Home_page = styled.div`
+    margin: 0px auto;
+    margin-top: 80px;
+    box-sizing: border-box;
+    background: rgb(238,231,255);
+    @media(max-width:850px){
+        height:auto;
+    }
+`
+export const Container = styled.div`
+    width: 85%;
+    margin: 0 auto;
+    padding:50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100%;
+    @media(max-width:1024px) {
+        grid-template-columns: 100%;
+        text-align: center;
+        
+    }
+`
+export const Navbar = styled.div`
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: bottom;
+    margin-bottom: 40px;
+
+`
+export const Navbar_text = styled.div`
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    @media(max-width:1024px) {
+       width: 100%;
+    }
+`
+
+export const Navbar_text_one = styled.p`
+    font-size: 30px;
+    margin-bottom: 10px;
+`
+export const Navbar_text_two = styled.p`
+    font-size: 16px;
+    word-spacing: 3px;
+    color: rgb(121,119,123);
+    margin: 0;
+`
+export const Button = styled.button `
+    padding: 15px 50px;
+    background: rgb(169,142,237);
+    color: white;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 12px ;
+    font-weight: 700;
+    transition: .3s background-color;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    &:hover {
+        background: rgb(63,213,211);
+        transition: .3s background-color;
+    }      
+`
+export const Card = styled.div`
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: 33% 33% 33%; */
+    gap:20px 30px;
+    @media(max-width:768px) {
+        grid-template-columns: 100%;
+    }
+    `
+export const Card_item = styled.div`
+    border: 1px solid  rgba(121,119,123, 0.5);
+    border-radius: 6px;
+    padding:30px;
+    background: white;
+`
+export const Img = styled.img`
+    width:50px;
+    height:60px;
+    background: rgb(63,213,211);
+`
+export const Text = styled.h2`
+
+`
+export const Flex = styled.div`
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+    border-bottom:${props => props.border ? "none" : "1px solid  rgba(121,119,123, 0.5)"}; 
+    `
+export const Flex_icon = styled(CheckLg)`
+    width:12px;
+    height:12px;
+    color:rgb(63,213,211);
+    margin: 10px 0px;
+    `
+export const Flex_text = styled.p `
+    align-self: bottom;
+    font-size: 13px;
+    word-spacing: 3px;
+    color: rgb(121,119,123);
+    margin: 10px 0px;
+   
+`
+export const Flex_price = styled.p`
+    font-size: 13px;
+    word-spacing: 3px;
+    color: rgb(121,119,123);
+    margin: 10px 0px;
+`
+export const Footer = styled.div`
+    display: flex;
+    justify-content:space-between;
+    
+`
+export const Footer_text = styled.p` 
+    color:rgb(63,213,211);
+    font-size: 17px;
+    font-weight: 600;
+`
+export const Footer_button = styled(ArrowRightShort)`
+    width:35px;
+    height:35px;
+    color:white;
+    background: rgb(63,213,211);
+    border-radius: 50%;
+    align-self: center;
+`

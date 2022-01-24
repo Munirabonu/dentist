@@ -1,6 +1,5 @@
 import styled, { css } from "styled-components";
-import { PlusCircle } from '@styled-icons/bootstrap/PlusCircle';
-import {PhoneCall} from '@styled-icons/feather/PhoneCall';
+import { PhoneCall } from '@styled-icons/feather/PhoneCall';
 
 export const Home_page = styled.div`
         /* width: 98%; */
@@ -11,10 +10,16 @@ export const Home_page = styled.div`
             height:auto;
         }
     `
+export const Border = styled.div`
+    position:relative;  
+    width: 80%;
+    margin: 0 auto;
+    padding:50px;
+    border:1px solid rgb(212, 218, 213);    
+    box-sizing: border-box;
+`
 export const Container = styled.div`
-        width: 80%;
-        margin: 0 auto;
-        border:1px solid rgb(212, 218, 213);
+        box-sizing: border-box;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
@@ -25,6 +30,25 @@ export const Container = styled.div`
             
         }
     `
+export const Right = styled.div`
+            content:'';
+            position: absolute;
+            right:0;
+            top:0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 120px 120px 0;
+            border-color: transparent rgb(169,142,237) transparent transparent;
+`
+export const Right_text = styled.div `
+    position: absolute;
+    padding-top:80px;
+    transform:rotate(45deg);
+    transform-origin: right bottom;
+    text-align: center;
+    color:white;
+`
 export const Text = styled.div`
         width: 30vw;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -35,10 +59,6 @@ export const Text = styled.div`
 export const Text_one = styled.b`
     font-size: 28px;
     `
-// Text_one.b = `
-//     color: rgb(63,213,211)
-// ` 
-
 export const Text_two = styled.p`
         font-size: 15px;
         color:grey;
@@ -52,15 +72,6 @@ export const Text_three = styled.p`
         @media (max-width:850px) {
             grid-template-columns: 10% auto;
         }
-        `
-// export const Icon = styled(PlusCircle)`
-//             color:rgb(169,142,237);
-//             width:30px;
-        // `
-export const Icon_Text = styled.p`
-            color:rgb(56,13,40);
-            // font-size: 18px;
-            margin:0;
         `
 export const Button = styled.button`
         padding: 15px 50px;
@@ -85,19 +96,20 @@ export const Img = styled.img`
             display: none;
         }
     `
-export const Call = styled.a `
-    display: flex;
+export const Call = styled.a`
     text-decoration: none;
 `
-export const Icon = styled (PhoneCall) `
+export const Icon = styled(PhoneCall)`
     color:blue;
     width: 15px;
-    padding:1px 8px;
-    border:1px solid blue;
+    padding:8px 10px;
+    border:2px solid rgb(169,142,237);
     border-radius:50%;
     display:inline-block;
 `
-export const Icon_text = styled.p `
-    color:blue;
+export const Icon_text = styled.p`
+    color:rgb(169,142,237);
     font-size: 15px;
+    display:inline;
+    font-weight: 800;
 `

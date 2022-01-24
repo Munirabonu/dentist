@@ -4,7 +4,11 @@ import Homes from '../../components/Home/Homes';
 import Home_doctor from '../../components/Home/Home_doctor/Index';
 import Implantat from '../../components/Home/Implantat/Index';
 import Off_page from '../../components/Home/Off/Index';
-// import 'home.css';/
+import Price from '../../components/Home/Price/Index'
+import Top from '../../components/Home/Top/Index';
+import Hands from '../../components/Home/Hand/Index'
+import Practic from '../../components/Home/Practic/Index';
+
 export default function Home() {
     return (
         <div>
@@ -13,6 +17,10 @@ export default function Home() {
             <Home_doctor />
             <Implantat />
             <Off_page />
+            <Price />
+            <Top />
+            <Hands />
+            <Practic />
         </div>
     )
 }
