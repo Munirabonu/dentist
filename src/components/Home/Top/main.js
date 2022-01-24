@@ -3,7 +3,6 @@ import {StarFill} from '@styled-icons/bootstrap/StarFill'
 export const Container = styled.div` 
     width:90%;
     margin:100px auto;
-    /* background: blue; */
 `
 export const Navbar = styled.div`
     text-align: center;
@@ -22,9 +21,17 @@ export const Card = styled.div`
     grid-template-columns: repeat(4,1fr);
     gap:100px;
     text-align:center;
+    @media (max-width:1024px) {
+    grid-template-columns: repeat(2,1fr);
+    }
+    @media (max-width:520px) {
+    grid-template-columns: auto;
+    }
+    
 `
 export const Card_item = styled.div` 
-
+    width:90%;
+    margin:0 auto;
 `
 export const Icon = styled(StarFill)` 
     width:15px;

@@ -31,6 +31,10 @@ export const Navbar = styled.div`
     align-content: bottom;
     margin-bottom: 40px;
 
+    @media (max-width:620px) {
+    grid-template-columns: auto;
+    }
+
 `
 export const Navbar_text = styled.div`
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

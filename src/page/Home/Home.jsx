@@ -8,6 +8,7 @@ import Price from '../../components/Home/Price/Index'
 import Top from '../../components/Home/Top/Index';
 import Hands from '../../components/Home/Hand/Index'
 import Practic from '../../components/Home/Practic/Index';
+import Call from '../../components/Home/Call/Call';
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Top />
             <Hands />
             <Practic />
+            <Call />
         </div>
     )
 }

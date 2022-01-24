@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container ,Icons,Icon_text , Icon , Grid , Grid_item , Text_one} from './main';
+import { Container ,Icons,Icon_text , Icon , Grid , Grid_item , Text_one , Text_two,Flex,Flex_icon,Flex_text} from './main';
 
 export default function Practic() {
     return (
@@ -23,6 +23,26 @@ export default function Practic() {
                             <Flex_icon></Flex_icon>
                             <Flex_text>Medically sterilized equipment;</Flex_text>
                         </Flex>
+                        <Flex>
+                            <Flex_icon></Flex_icon>
+                            <Flex_text>Medically sterilized equipment;</Flex_text>
+                        </Flex>
+
+                        <Flex>
+                            <Flex_icon></Flex_icon>
+                            <Flex_text>Medically sterilized equipment;</Flex_text>
+                        </Flex>
+
+                        <Flex>
+                            <Flex_icon></Flex_icon>
+                            <Flex_text>Medically lorem sterilized equipment;</Flex_text>
+                        </Flex>
+
+                        <Flex>
+                            <Flex_icon></Flex_icon>
+                            <Flex_text>Medically  lorem2 lorem sterilized equipment;</Flex_text>
+                        </Flex>
+
                     </Grid_item>
                 </Grid>
             </Container>
