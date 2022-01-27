@@ -22,7 +22,7 @@ export const Text_one = styled.div `
     color:rgb(25,49,57);
 `
 export const Text_two = styled.div` 
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     color:rgb(120,128,120);
 `

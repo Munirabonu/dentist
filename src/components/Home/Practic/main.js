@@ -26,6 +26,9 @@ export const Grid = styled.div`
     display:grid;
     grid-template-columns: 50% 50%;
     gap:100px;
+    @media (max-width:1024px) {
+    gap: 50px;
+    }
     @media (max-width:910px) {
     grid-template-columns: 100%;
     }
