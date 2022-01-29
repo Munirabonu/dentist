@@ -26,18 +26,12 @@ export default function Navbar() {
                         return (
                             <Item key={id}>
                                 <Link activeStyle={activeStyle} to={path} exact>
+                                    {title}
                                 </Link>
                             </Item>
                         )
                     })}
                     
-                        <Item>Home</Item>
-                        <Item>Blog</Item>
-                        <Item>Doctors</Item>
-                        <Item>Servies</Item>
-                        <Item> Price G</Item>
-                        <Item>Contacts</Item> 
-
                      </Ul>
                 </Container>
             </Navbar_page>

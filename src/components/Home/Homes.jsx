@@ -1,8 +1,7 @@
 import React from 'react'
-import { Container, Home_page,Text_p, Smile_text, Text,Img, After } from './main'
+import { Container, Home_page,Text_p, Smile_text, Text,Img, After, Img_item, Animation_icon, Animation_icon2, Animation_icon3, Icon, Icon_text, Call } from './main'
 import home_page from '../../img/Icon/home_page.jpg';
-import home_animation from '../../img/Icon/home-animation.svg'
-import Cosmetic from './Cosmetic/Cosmetic';
+
 export default function Homes() {
     return (
         <div>
@@ -15,9 +14,19 @@ export default function Homes() {
                         <Smile_text>
                         Because your smile is the beauty of your soul.
                         </Smile_text>
+                        <Call href='tel'>
+                                <Icon></Icon>
+                                <Icon_text> 1-33-1212-121</Icon_text>
+                        </Call>
                     </Text>
+                    <Img_item>
                     <Img src={home_page} />
-                    {/* <After src={home_animation} /> */}
+                    <Animation_icon />
+                    <Animation_icon2/>
+                    <Animation_icon3/>
+                    
+                    </Img_item>
+
                 </Container>
             </Home_page>
         </div>

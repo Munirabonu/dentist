@@ -1,10 +1,13 @@
 import React from 'react'
-
+import Contact from '../../components/Contact/Contact'
+import Map from '../../components/Contact/Map/Map'
+import Call from '../../components/Home/Call/Call'
 export default function Contacts() {
     return (
         <div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, omnis nesciunt eaque placeat, quo accusamus fuga vero vitae similique sint quis ex laudantium debitis! Vitae sunt vel similique accusantium placeat!
-            <h1>Contact</h1>
+            <Contact />
+            <Map />
+            <Call />
         </div>
     )
 }

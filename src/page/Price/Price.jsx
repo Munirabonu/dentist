@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Price_card from '../../components/Price_Guide/Card/Card'
+import Check from '../../components/Servies/Check/Check'
+import Call from '../../components/Home/Call/Call'
 export default function Price() {
     return (
         <div>
-            <h1>Price</h1>
+            <Price_card />
+            <Check />
+            <Call />
         </div>
     )
 }

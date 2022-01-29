@@ -23,11 +23,6 @@ export const Contact = styled.div`
 `
 export const Location = styled.div` 
 `
-// export const Map_item = styled.div `
-//     width: 50%;
-//     height: 50%;
-
-// `
 export const Opens = styled.div`  
 `
 export const Items = styled.div` 

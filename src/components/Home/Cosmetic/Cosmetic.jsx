@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Container, Img, Item,Item_text,Text, Text_One, Text_Three, Text_Two } from './main'
+import { Button, Card, Container, Img, Img_item, Item,Item_text,Text, Text_One, Text_Three, Text_Two } from './main'
 import general from '../../../img/Icon/home-card-1.jpg'
 
 export default function Cosmetic() {
@@ -11,21 +11,27 @@ export default function Cosmetic() {
                 <Text_Three>Every day, more than 100 patients receive professional assistance in our clinic.</Text_Three>
                 <Card>
                     <Item>
-                        <Img src={general} />
+                        <Img_item>
+                            <Img src={general} />
+                        </Img_item>
+                        <Text>General Dentistry</Text>
+                        <Item_text>
+                        General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.
+                        </Item_text>
+                    </Item>
+                    <Item> 
+                        <Img_item>
+                            <Img src={general} />
+                        </Img_item>
                         <Text>General Dentistry</Text>
                         <Item_text>
                         General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.
                         </Item_text>
                     </Item>
                     <Item>
-                        <Img src={general} />
-                        <Text>General Dentistry</Text>
-                        <Item_text>
-                        General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.
-                        </Item_text>
-                    </Item>
-                    <Item>
-                        <Img src={general} />
+                    <Img_item>
+                            <Img src={general} />
+                        </Img_item>
                         <Text>General Dentistry</Text>
                         <Item_text>
                         General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.

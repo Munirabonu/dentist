@@ -9,7 +9,6 @@ import Top from '../../components/Home/Top/Index';
 import Hands from '../../components/Home/Hand/Index'
 import Practic from '../../components/Home/Practic/Index';
 import Call from '../../components/Home/Call/Call';
-
 export default function Home() {
     return (
         <div>
@@ -26,4 +25,3 @@ export default function Home() {
         </div>
     )
 }
-    

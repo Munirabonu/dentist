@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import animation from '../../../img/Icon/braces.svg'
 export const Container = styled.div`
     width: 90%;
     margin: 0 auto;
@@ -36,29 +36,33 @@ export const Card = styled.div`
     }
 `
 export const Item = styled.div`
-
+`
+export const Img_item = styled.div ` 
+    position: relative;
+    display: flex;
+    &::after {
+        content:'';
+            position: absolute;
+            left: 30%;
+            width :100px;
+            height: 100px;
+            bottom: -50px;
+            background: url(${animation});  
+            background-color: white;
+            background-size: cover;
+            z-index: 2;
+            border: 20px solid white;
+            border-radius: 40%;
+        }
 `
 export const Img = styled.img`
-position: relative;
 width: 100%;
-/* &::before{
-    content: 'asaasASA';
-    position: absolute;
-    bottom:0;
-    width: 150px;
-    height: 150px;
-    background: blueviolet;
-    
-    &:hover{
-        cursor: pointer;
-    }
-    
-} */
 `
 
 export const Text = styled.p`
     font-size: 25px;
     font-weight: 500;
+    margin-top: 50PX;
 `
 export const Item_text = styled.p`
     font-size: 17px;
