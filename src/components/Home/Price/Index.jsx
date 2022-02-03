@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Home_page, Container, Navbar_text_two, Navbar_text, Navbar_text_one, Button, Navbar, Flex_price ,Card , Card_item , Img, Text ,Flex,Flex_text, Flex_icon , Footer , Footer_button , Footer_text } from './main';
 
 export default function Price() {
@@ -15,10 +16,8 @@ export default function Price() {
                                 We treat every patient as an individual and create treatment plans to fit your specific needs.
                             </Navbar_text_two>
                         </Navbar_text>
-                        <Button>
-                            Full Price
-                        </Button>
-                    </Navbar>
+                        <Link style={{color:'white'}} to='/price' exact><Button>Batafsil..</Button></Link>
+  </Navbar>
                     <Card>
                         <Card_item>
                             <Img></Img>

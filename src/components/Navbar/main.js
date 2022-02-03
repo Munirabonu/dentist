@@ -1,14 +1,16 @@
 import styled from "styled-components";
-// import { StyledComponent as dentist } from "styled-components";
-import dentist from '../../img/Icon/dentist.png';
 import { NavLink } from "react-router-dom";
 
 export const Navbar_page = styled.div `
     display: flex;
-    width: 98%;
-    margin: 0 auto;
     `
-export const Container = styled.div`
+    export const Drop = styled.div` 
+        display: none;
+        @media(max-width:1024px){
+            display: flex;
+        }
+    `
+export const Containers = styled.div`
     width: 90%;
     display: flex;
     align-items: center;
@@ -48,6 +50,9 @@ text-decoration: none;
 export const Ul = styled.div `
     display: flex;
     margin: 20px 0;
+    @media(max-width:1024px){
+        display:none;
+    }
 `
 export const Item = styled.div `
     padding:  0 20px;

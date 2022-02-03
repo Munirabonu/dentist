@@ -29,6 +29,9 @@ export const Grid = styled.div`
     grid-template-columns: 60% 30%;
     box-sizing: border-box;
     gap: 100px;
+    @media(max-width:768px){
+        grid-template-columns: 100%;
+    }
 `
 export const Cards = styled.div` 
 
@@ -56,11 +59,13 @@ export const Card_flex = styled.div`
     }
 `
 export const Card_text_one = styled.h1` 
- &:hover{
-    color: rgb(160,162,164);
-    transition: color .5s;
- }
-
+    &:hover{
+       color: rgb(160,162,164);
+       transition: color .5s;
+    }
+    @media(max-width:425px){
+        font-size: 20px;
+    }
 `
 export const Card_text_two = styled.p` 
     color: rgb(180,182,184);
@@ -82,11 +87,11 @@ export const List_item = styled.div`
     &:hover {
         color:rgb(182,183,182);
     }
+    @media(max-width:425px){
+        font-size: 18px;
+    }
 `
 export const News = styled.div` 
-    /* display: flex;
-    align-content: center;
-    justify-content: center; */
     padding: 30px;
     text-align: center; 
     background: rgb(225,249,248);

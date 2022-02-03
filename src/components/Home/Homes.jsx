@@ -21,10 +21,10 @@ export default function Homes() {
                     </Text>
                     <Img_item>
                     <Img src={home_page} />
-                    <Animation_icon />
+                    {/* <Animation_icon />
                     <Animation_icon2/>
                     <Animation_icon3/>
-                    
+                     */}
                     </Img_item>
 
                 </Container>

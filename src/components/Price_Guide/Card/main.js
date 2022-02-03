@@ -10,11 +10,13 @@ export const Home_page = styled.div`
     }
     `
 export const Container = styled.div`
-    /* height: 100vh; */
     width: 95%;
     margin: 0 auto;
     padding:50px;
     box-sizing: border-box;
+    @media(max-width:425px){
+        padding: 20px;
+    }
 `
 export const Navbar = styled.div`
     text-align: center;
@@ -43,11 +45,16 @@ export const Card_item = styled.div`
     border-radius: 6px;
     padding:50px;
     background: white;
+    
+    @media(max-width:375px){
+        padding: 20px;
+    }
 `
 export const Img = styled.img`
     width:50px;
     height:60px;
     background: rgb(63,213,211);
+    
 `
 export const Text = styled.h2`
 
@@ -68,7 +75,7 @@ export const Flex_text = styled.p `
     font-size: 17px;
     word-spacing: 3px;
     color: rgb(121,119,123);
-    margin-left: 15px;   
+    margin-left: 15px;  
 `
 export const Flex_price = styled.p`
     font-size: 17px;

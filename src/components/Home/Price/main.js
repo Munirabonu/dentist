@@ -3,7 +3,6 @@ import {CheckLg} from '@styled-icons/bootstrap/CheckLg';
 import {ArrowRightShort} from "@styled-icons/bootstrap/ArrowRightShort"
 
 export const Home_page = styled.div`
-    margin: 0px auto;
     margin-top: 80px;
     box-sizing: border-box;
     background: rgb(238,231,255);
@@ -22,6 +21,14 @@ export const Container = styled.div`
         grid-template-columns: 100%;
         text-align: center;
         
+    }
+    @media(max-width:425px){
+        width:90%;
+        padding: 20px;
+    }
+    @media(max-width:425px){
+        width:100%;
+        padding: 20px;
     }
 `
 export const Navbar = styled.div`
@@ -72,14 +79,13 @@ export const Button = styled.button `
 export const Card = styled.div`
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    /* grid-template-columns: 33% 33% 33%; */
     gap:20px 30px;
     @media(max-width:768px) {
         grid-template-columns: 100%;
     }
     `
 export const Card_item = styled.div`
-    border: 1px solid  rgba(121,119,123, 0.5);
+    border: 1px solid  rgba(121,119,123, 0.2);
     border-radius: 6px;
     padding:30px;
     background: white;
@@ -96,7 +102,7 @@ export const Flex = styled.div`
     width: 100%;
     margin:0 auto;
     display: flex;
-    justify-content:space-between;
+    align-items: center;
     text-align: left;
     border-bottom:${props => props.border ? "none" : "1px solid  rgba(121,119,123, 0.5)"}; 
     `
@@ -104,21 +110,21 @@ export const Flex_icon = styled(CheckLg)`
     width:12px;
     height:12px;
     color:rgb(63,213,211);
-    margin: 10px 0px;
+    margin: 10px 0;
     `
 export const Flex_text = styled.p `
     align-self: bottom;
     font-size: 13px;
     word-spacing: 3px;
     color: rgb(121,119,123);
-    margin: 10px 0px;
-   
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 `
 export const Flex_price = styled.p`
     font-size: 13px;
     word-spacing: 3px;
     color: rgb(121,119,123);
-    margin: 10px 0px;
+    margin-left: auto;
 `
 export const Footer = styled.div`
     display: flex;

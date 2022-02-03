@@ -1,28 +1,26 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Navbar, Container, Offcanvas, Nav } from 'react-bootstrap'
 import { NavbarPath } from '../../utils/path'
-// import dentist from '../../img/Icon/dentist.png';
-import { Container, Icon, Link , Icon_text, Img, Navbar_page, Text, Ul, Item, activeStyle } from './main'
-export default function Navbar() {
+import { Containers, Drop, Icon, Link, Icon_text, Img, Navbar_page, Text, Ul, Item, activeStyle } from './main'
+export default function Navbars() {
     return (
-        <div>
-            <Navbar_page>
-                <Container>
-                    <Img>
-                        <Link to='/'>
-                            <Icon>
-                            </Icon>
-                            <Icon_text left>
-                                Healty
-                                <Text>
-                                    Smiels
-                                    something updated
-                                </Text>
-                            </Icon_text>
-                        </Link>
-                    </Img>
-                    <Ul>
-                    {NavbarPath.map(({id,title,path})=>{
+        <Navbar_page>
+            <Containers>
+                <Img>
+                    <Link to='/'>
+                        <Icon>
+                        </Icon>
+                        <Icon_text left>
+                            Healty
+                            <Text>
+                                Smiels
+                                something updated
+                            </Text>
+                        </Icon_text>
+                    </Link>
+                </Img>
+                <Ul>
+                    {NavbarPath.map(({ id, title, path }) => {
                         return (
                             <Item key={id}>
                                 <Link activeStyle={activeStyle} to={path} exact>
@@ -31,10 +29,40 @@ export default function Navbar() {
                             </Item>
                         )
                     })}
-                    
-                     </Ul>
-                </Container>
-            </Navbar_page>
-        </div>
+
+                </Ul>
+            </Containers>
+            <Drop>
+                <Navbar width='100%'  expand={false}>
+                    <Container fluid>
+                        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                        <Navbar.Offcanvas
+                            id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel"
+                            placement="end"
+                        >
+                            <Offcanvas.Header closeButton>
+                                <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                            </Offcanvas.Header>
+                            <Offcanvas.Body>
+                                <Nav className="justify-content-end flex-grow-1 pe-3">
+                                    {NavbarPath.map(({ id, title, path }) => {
+                                        return (
+                                            <Nav.Link key={id}>
+                                                <Link activeStyle={activeStyle} to={path} exact>
+                                                    {title}
+                                                </Link>
+                                            </Nav.Link>
+                                        )
+                                    })}
+
+                                </Nav>
+                            </Offcanvas.Body>
+                        </Navbar.Offcanvas>
+                    </Container>
+                </Navbar>
+            </Drop>
+        </Navbar_page>
     )
 }
+

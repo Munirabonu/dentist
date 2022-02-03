@@ -17,6 +17,9 @@ export const Text_Two = styled.p`
     font-size: 38px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
+    @media (max-width:425px){
+        font-size:30px;
+    }
 `
 export const Text_Three = styled.p`
     color: #838383;
@@ -31,7 +34,11 @@ export const Card = styled.div`
     justify-content:space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     @media (max-width:780px) {
-        grid-template-columns: 70%;
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
+    @media (max-width:320px) {
+        grid-template-columns: 100%;
         justify-content: center;
     }
 `
@@ -40,10 +47,11 @@ export const Item = styled.div`
 export const Img_item = styled.div ` 
     position: relative;
     display: flex;
+    justify-content: center;
     &::after {
         content:'';
             position: absolute;
-            left: 30%;
+            /* left: 30%; */
             width :100px;
             height: 100px;
             bottom: -50px;

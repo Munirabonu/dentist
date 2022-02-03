@@ -12,7 +12,7 @@ export default function Price_card() {
                                 Price Guide
                             </Navbar_text_one>
                             <Navbar_text_two>
-                                We treat every patient as an individual and create treatment plans to fit your specific needs.
+                                We treat every pat  ient as an individual and create treatment plans to fit your specific needs.
                             </Navbar_text_two>
                     
                     </Navbar>
@@ -22,12 +22,12 @@ export default function Price_card() {
                             <Text>Dental Essentials</Text>
                             <Flex>
                                 <Flex_icon></Flex_icon>
-                                <Flex_text>New patient dental check-up</Flex_text>
+                                <Flex_text>New patient den tal check-up</Flex_text>
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Flex>
                                 <Flex_icon></Flex_icon>
-                                <Flex_text>New patient dental check-up</Flex_text>
+                                <Flex_text>New pat  ient dental check-up</Flex_text>
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Flex>
@@ -42,7 +42,7 @@ export default function Price_card() {
                             </Flex>
                             <Flex border>
                                 <Flex_icon></Flex_icon>
-                                <Flex_text>New patient dental check-up</Flex_text>
+                                <Flex_text>New patient dal check-up</Flex_text>
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Footer>

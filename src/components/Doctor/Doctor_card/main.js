@@ -7,6 +7,9 @@ export const Container = styled.div`
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
+    @media(max-width:425px){
+    grid-template-columns: 100%;
+    }
 `
 export const Card = styled.div` 
     display: grid;
@@ -14,6 +17,9 @@ export const Card = styled.div`
     border:  1px solid  rgba(121,119,123, 0.3); 
     border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
+    @media(max-width:768px){
+    grid-template-columns: 100%;
+    }
 `
 export const Img = styled.img` 
     width: 100%;

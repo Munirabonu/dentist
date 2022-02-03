@@ -11,8 +11,7 @@ export const Container = styled.div`
     padding: 100px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    @media(max-width:900px) {
+    @media(max-width:1024px) {
         grid-template-columns: 100%;
         text-align: center;
 
@@ -21,7 +20,7 @@ export const Container = styled.div`
 export const Text = styled.div`
     width: 30vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    @media(max-width:900px) {
+    @media(max-width:1024px) {
        width: 100%;
     }
 `
@@ -33,6 +32,9 @@ export const Text_one = styled.p`
 `
 export const Text_two = styled.p`
     font-size: 35px;
+    @media(max-width:425px){
+        font-size: 30px;
+    }
     `
 export const Text_three = styled.p`
     font-size: 16px;
@@ -45,6 +47,7 @@ export const Button = styled.button`
     color: white;
     border: none;
     border-radius: 5px;
+    border: none;
     font-size: 12px ;
     font-weight: 700;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -79,19 +82,13 @@ export const Img_item = styled.div`
             z-index: 2;
             transform: rotate(250deg);
         }
-        &::before {
-            content:'';
-            position: absolute;
-            width :300px;
-            height: 400px;
-            top: -40px;
-            right: -1px;
-            background: url(${animation});  
-            background-size: cover;
-            z-index: 2;
-            transform: rotate(250deg);
+    @media(max-width:1024px){
+        &::after{
+            width: 100px;
+            height: 200px;
         }
-        
+    }
+
 `
 export const Animation_icon = styled(StarBorder)` 
     position: absolute;

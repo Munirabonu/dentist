@@ -8,7 +8,7 @@ export default function Off_page() {
         <div>
             <Home_page>
                 <Border>
-                <Right><Right_text>Skidka25%bor</Right_text></Right>
+                    <Right><Right_text>Skidka25%bor</Right_text></Right>
                     <Container>
                         <Img src={home} />
                         <Text>
@@ -20,9 +20,7 @@ export default function Off_page() {
                                 If you are looking for a new dental home, let us welcome you to our state-of-the-art practice! New patients can now get a detailed exam and x-ray for just $129. This will let us get an in-depth understanding of your oral health.
 
                             </Text_three>
-                            <Button>
-                                Button text
-                            </Button>
+                            <Link style={{color:'white'}} to='/price' exact><Button>Batafsil..</Button></Link>
                             <Call href='tel'>
                                 <Icon></Icon>
                                 <Icon_text>1-33-1212-121</Icon_text>

@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { PhoneCall } from '@styled-icons/feather/PhoneCall';
 
 export const Home_page = styled.div`
@@ -16,6 +16,9 @@ export const Border = styled.div`
     padding:50px;
     border:1px solid rgb(212, 218, 213);    
     box-sizing: border-box;
+    @media(max-width:375px){
+        padding: 50px 20px;
+    }
 `
 export const Container = styled.div`
     display: grid;
@@ -24,7 +27,6 @@ export const Container = styled.div`
     grid-template-columns: repeat(2, 1fr);
     @media(max-width:1024px) {
         align-items: center;
-        text-align: center;
         grid-template-columns: 100%;
     }
         
@@ -39,14 +41,20 @@ export const Right = styled.div`
     border-style: solid;
     border-width: 0 120px 120px 0;
     border-color: transparent rgb(169,142,237) transparent transparent;
+    @media(max-width:425px){
+        border-width: 0 100px 100px 0;
+}
 `
 export const Right_text = styled.div `
-    position: absolute;
-    padding-top:80px;
+    /* position: absolute;
+    padding-top:0px;
     transform:rotate(45deg);
     transform-origin: right bottom;
     text-align: center;
     color:white;
+    @media(max-width:425px){
+    padding-top: 0px;
+} */
 `
 export const Text = styled.div`
     width: 30vw;
@@ -55,8 +63,12 @@ export const Text = styled.div`
        width: 100%;
     }
 `
-export const Text_one = styled.b`
-font-size: 28px;
+export const Text_one = styled.p`
+    font-size: 28px;
+    @media(max-width:425px){
+        font-size: 20px;
+    }
+
 `
 export const Text_two = styled.p`
     font-size: 15px;
@@ -77,7 +89,7 @@ export const Button = styled.button`
     background: rgb(63,213,211);
     color: white;
     border: none;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
     border-radius: 5px;
     font-size: 12px ;
     font-weight: 700;

@@ -10,6 +10,9 @@ export const Container = styled.div`
 export const Navbar = styled.div`
     width: 30%;
     margin:auto;
+@media(max-width:1024px){
+    width: 100%;
+}
 `
 export const Navbar_text_one = styled.h3`
     font-size:20px;

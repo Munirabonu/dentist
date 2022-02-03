@@ -25,7 +25,6 @@ export default function Doctor() {
                     </Button_footer_text>
                     </Text>
                     <Img src={home_page} />
-                    {/* <After src={home_animation} /> */}
                 </Container>
             </Home_page>
         </div>

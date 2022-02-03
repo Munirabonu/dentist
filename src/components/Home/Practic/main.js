@@ -8,6 +8,10 @@ export const Container = styled.div`
     border:2px solid rgba(123,122,122,0.2);
     border-radius:5px;
     padding:50px;
+    @media(max-width:425px){
+        padding: 15px;
+        width:90%;
+    }
 `
 export const Icons = styled.div` 
     display:flex;
@@ -40,6 +44,9 @@ export const Grid_item = styled.div`
 `
 export const Text_one = styled.div` 
     font-size:28px;
+    @media(max-width:425px){
+    font-size:20px;
+    }
 
 `
 export const Text_two = styled.div` 
@@ -49,18 +56,18 @@ export const Text_two = styled.div`
 `
 export const Flex = styled.div` 
     display:flex;
-    justify-content: left;
-    margin-bottom:20px;
+    align-items: center;
 `
 export const Flex_icon = styled(CheckLg)`
-    width:15px;
-    height:15px;
+    width:25px;
+    height:25px;
     color:rgb(169,142,237);
-    margin: 0px 10px;
+    margin-right: 10px;
     padding:5px;
+    box-sizing: border-box;
     border:1px solid rgb(169,142,237);
     border-radius:50%;
 `
-export const Flex_text = styled.div` 
-
+export const Flex_text = styled.p` 
+    color: rgb(128,120,120);
 `

@@ -17,6 +17,9 @@ export const Grid = styled.div`
     grid-template-columns: 50% 50%;
     border: 1px solid rgba(123,123,132,.2);
     border-radius: 5px;
+    @media(max-width:1024px){
+        grid-template-columns: 100%;
+    }
 `
 export const Grid_text = styled.div` 
     padding: 50px;

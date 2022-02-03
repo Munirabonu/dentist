@@ -1,9 +1,10 @@
-import Home from '../page/Home/Home.jsx'
-import Blog from '../page/Blog/Blog'
-import Doctors from '../page/Doctors/Doctors.jsx'
-import Servies from '../page/Servies/Servies.jsx'
-import Price from '../page/Price/Price.jsx'
-import Contacts from '../page/Contacts/Contacts.jsx'
+import React from 'react'
+const Home =React.lazy(()=>import('../page/Home/Home.jsx'))
+const Blog =React.lazy(()=>import('../page/Blog/Blog'))
+const  Doctors=React.lazy(()=>import('../page/Doctors/Doctors.jsx'))
+const Servies =React.lazy(()=>import('../page/Servies/Servies.jsx'))
+const Price =React.lazy(()=>import('../page/Price/Price.jsx'))
+const Contacts =React.lazy(()=>import('../page/Contacts/Contacts.jsx'))
 
 export const NavbarPath = [
     {

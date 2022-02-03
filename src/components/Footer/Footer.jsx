@@ -1,9 +1,10 @@
 import React from 'react';
-import { Contact, Container, Location, Opens, Recurs, Item, Items, Flex, Flex_item, Footer_bottom, Icons, Facebooks, Instagrams, Twitters } from './main';
+import { Contact, Container, Location, Opens, Recurs, Item, Items,Link, Flex, Flex_item, Footer_bottom, Icons, Facebooks, Instagrams, Twitters, activeStyle } from './main';
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
 import Facebook from '@styled-icons/boxicons-logos/Facebook';
-import  Twitter from '@styled-icons/boxicons-logos/Twitter';
+import Twitter from '@styled-icons/boxicons-logos/Twitter';
 import Instagram from '@styled-icons/boxicons-logos/Instagram';
+import { NavbarPath } from '../../utils/path';
 
 export default function Footer() {
 
@@ -13,19 +14,15 @@ export default function Footer() {
             <Container>
                 <Recurs>
                     <h3>Resources</h3>
-                    <Items>
-                        <Item active>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                        <Item>Home</Item>
-                    </Items>
+                    {NavbarPath.map(({ id, title, path }) => {
+                        return (
+                            <Item key={id}>
+                                <Link   activeStyle={activeStyle} to={path} exact>
+                                    {title}
+                                </Link>
+                            </Item>
+                        )
+                    })}
                 </Recurs>
                 <Contact>
                     <h3 >Contact info </h3>
@@ -39,12 +36,13 @@ export default function Footer() {
                 </Contact>
                 <Location>
                     <h3>Our Locations</h3>
-                    
-                    <YMaps>
-                        <Map defaultState={{ center: [27.751574, 34.573856], zoom: 4 }}>
-                            <Placemark defaultGeometry={[27.751574, 34.573856]} />
-                        </Map>
-                    </YMaps>
+                    <div style={{ width: '100%', position: 'relative' }}>
+                        <YMaps>
+                            <Map width='100%' defaultState={{ center: [27.751574, 34.573856], zoom: 4 }}>
+                                <Placemark defaultGeometry={[27.751574, 34.573856]} />
+                            </Map>
+                        </YMaps>
+                    </div>
                 </Location>
                 <Opens>
                     <h3>Open</h3>
@@ -73,7 +71,7 @@ export default function Footer() {
             <Footer_bottom>
                 <p>This is a sample website – cmsmasters © 2022 / All Rights Reserved</p>
                 <Icons>
-                    <Facebooks /> 
+                    <Facebooks />
                     <Instagrams />
                     <Twitters />
                 </Icons>

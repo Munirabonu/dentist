@@ -1,11 +1,9 @@
 import styled from "styled-components";
 import animation from '../../img/Icon/home-animation.svg';
-import {StarBorder} from '@styled-icons/material-rounded/StarBorder'
+import { StarBorder } from '@styled-icons/material-rounded/StarBorder'
 import { PhoneCall } from '@styled-icons/feather/PhoneCall';
 
 export const Home_page = styled.div`
-    width: 98%;
-    margin: 0 auto;
     height: 105vh;
     background: linear-gradient(to right, rgb(210,234,255),rgb(218,206,255));
     @media (max-width:1200px){
@@ -19,20 +17,22 @@ export const Container = styled.div`
     grid-template-columns: 50% 50%;
     justify-content: space-between;
     @media (max-width:1200px) {
-
         grid-template-columns: 100%;
-        justify-content: center;
+        justify-items: center;
         text-align: center;
     }
-`
+    @media (max-width:372px) {
+        width: 90%;
+    }
+    `
 export const Text = styled.div`
     padding: 150px 0;
     color: rgb(25,49,57);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     @media (max-width:1200px){
-        padding:0;
+        padding:50px;
     }
-`
+    `
 export const Text_p = styled.p`
     font-size: 70px;
     line-height: 0.97;
@@ -48,7 +48,7 @@ export const Text_p = styled.p`
     @media (max-width:500px) {
         font-size: 30px;
     }
-`
+    `
 export const Smile_text = styled.p`
      font-size: 20px;
     @media (max-width:600px) {
@@ -60,27 +60,16 @@ export const Smile_text = styled.p`
 `
 export const Img = styled.img`
     z-index: 5;
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
 `
 export const Img_item = styled.div`
+    margin-bottom: -30px;
     margin-top: 70px;
     width: 100%;
-    height: 80%;
     position: relative;
     display: flex;
     z-index: 3;
-        &::after {
-            content:'';
-            position: absolute;
-            width :200px;
-            height: 300px;
-            left: -40px;
-            bottom: 0px;
-            background: url(${animation});  
-            background-size: cover;
-            z-index: 2;
-        }
+        
 `
 export const Animation_icon = styled(StarBorder)` 
     position: absolute;
@@ -97,6 +86,9 @@ export const Animation_icon = styled(StarBorder)`
     from {color:rgb(63,213,211); display: none;}
     to {color:rgb(169,142,237); display:none;}
     }
+    @media(max-width:425px){
+        width: 20px;
+    }
 `
 export const Animation_icon2 = styled(StarBorder)` 
     position: absolute;
@@ -111,6 +103,9 @@ export const Animation_icon2 = styled(StarBorder)`
     @keyframes example {
     from {color:rgb(63,213,211); display: none;}
     to {color:rgb(169,142,237); display:none;}
+    }
+    @media(max-width:425px){
+        width: 20px;
     }
 `
 export const Animation_icon3 = styled(StarBorder)` 
@@ -135,14 +130,17 @@ export const Call = styled.a`
     background:linear-gradient(to right, white 50%,rgb(63,213,211));
     padding: 20px;
     border-radius: 25px;
+    @media(max-width:425px){
+        padding:10px;
+    }
 `
 export const Icon = styled(PhoneCall)`
     color:blue;
-    width: 15px;
-    padding:8px 10px;
+    width: 20px;
+    padding:2px;
     border:2px solid rgb(169,142,237);
     border-radius:50%;
-    display:inline-block;
+    /* display:inline-block; */
 `
 export const Icon_text = styled.p`
     color:rgb(169,142,237);

@@ -21,26 +21,21 @@ export default function Practic() {
                     <Grid_item>
                         <Flex>
                             <Flex_icon></Flex_icon>
-                            <Flex_text>Medically sterilized equipment;</Flex_text>
+                            <Flex_text>Medically sterilized equ ipment;</Flex_text>
                         </Flex>
                         <Flex>
                             <Flex_icon></Flex_icon>
-                            <Flex_text>Medically sterilized equipment;</Flex_text>
-                        </Flex>
-
-                        <Flex>
-                            <Flex_icon></Flex_icon>
-                            <Flex_text>Medically sterilized equipment;</Flex_text>
+                            <Flex_text>Medically sterilized e quipm ent;</Flex_text>
                         </Flex>
 
                         <Flex>
                             <Flex_icon></Flex_icon>
-                            <Flex_text>Medically lorem sterilized equipment;</Flex_text>
+                            <Flex_text>Medically equipment;</Flex_text>
                         </Flex>
 
                         <Flex>
                             <Flex_icon></Flex_icon>
-                            <Flex_text>Medically  lorem2 lorem sterilized equipment;</Flex_text>
+                            <Flex_text>Medically ipment;</Flex_text>
                         </Flex>
 
                     </Grid_item>

@@ -8,7 +8,7 @@ function Map_page() {
             <Container>
                 <Text>Contact Information</Text>
                 <Grid>
-                    <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+                <div style={{ width: '100%', height: '100%', position: 'relative' }}>
                         <YMaps>
                             <Map width='100%' height='100%' defaultState={{ center: [41.317315, 69.163040], zoom: 9, controls: ['zoomControl', 'fullscreenControl'], }}
                                 modules={['control.ZoomControl', 'control.FullscreenControl']}>
