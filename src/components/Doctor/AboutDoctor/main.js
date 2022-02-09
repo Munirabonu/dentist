@@ -1,24 +1,31 @@
 import styled from 'styled-components'
 import { CheckLg } from '@styled-icons/bootstrap/CheckLg';
+import {Facebook} from '@styled-icons/boxicons-logos/Facebook';
+import  {Twitter }from '@styled-icons/boxicons-logos/Twitter';
+import {Instagram} from '@styled-icons/boxicons-logos/Instagram';
+import { Link } from "react-router-dom";
 
-export const Container = styled.div` 
-    width: 95%;
-    margin: 100px auto;
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 50px;
-    @media(max-width:425px){
-    grid-template-columns: 100%;
-    }
+
+export const Navbar = styled.div` 
+    width:90%;
+    margin:20px auto;
+`
+export const Navbar_link = styled(Link)` 
+    font-size: 16px;
+    margin:20px 0;
+    padding:10px 0;
 `
 export const Card = styled.div` 
+    width:60%;
+    margin: auto;
     display: grid;
     grid-template-columns: 50% 50%;    
     border:  1px solid  rgba(121,119,123, 0.3); 
     border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
     @media(max-width:768px){
-    grid-template-columns: 100%;
+        width:90%;
+        grid-template-columns: 100%;
     }
 `
 export const Img = styled.img` 
@@ -35,7 +42,6 @@ export const Text_one = styled.p`
     font-size: 25px;    
     font-weight: 700;
     margin: 0;
-    
     `
 export const Text_two = styled.p` 
     margin: 10px 0 ;
@@ -62,8 +68,8 @@ export const List_text = styled.p`
 `
 export const Button = styled.div`
     margin-top:auto;    
+    margin-bottom:20px;
     display:flex;
-    justify-content:space-between;
     align-items:center;
     font-size:20px;
     color:rgb(63,213,211);
@@ -71,9 +77,40 @@ export const Button = styled.div`
     &:hover {
         color:rgb(210,138,229);
     }
+    @media(max-width:768px){
+        margin-top:20px;
+    }
 `
-export const Button_text = styled.div` 
-    font-size: 35px;
-    display:flex;
-    align-items:center;
+export const Text = styled.div` 
+    width:80%;
+    margin:100px auto;
+    font-size:18px;
+    color:rgb(84,115,123);
+    @media(max-width:420px){
+        font-size:16px;
+    }
+`
+export const Facebooks = styled(Facebook) ` 
+    color: rgb(25,49,57);
+    width: 40px;
+    padding:10px;
+    border:1px solid grey;
+    border-radius:50%;
+`
+export const Instagrams = styled(Instagram) ` 
+    color: rgb(25,49,57);
+    width: 40px;
+    padding:10px;
+    border:1px solid grey;
+    border-radius:50%;
+    margin-left:10px;
+    `
+export const Twitters = styled(Twitter) ` 
+    color: rgb(25,49,57);
+    width: 40px;
+    padding:10px;
+    border:1px solid grey;
+    border-radius:50%;
+    margin-left:10px;
+
 `

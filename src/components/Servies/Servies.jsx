@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Home_page, Text, Img, Text_one, Text_two, Text_three, Button, Button_footer_text } from './main';
 import services from '../../img/Icon/services.jpg';
 import dentist from '../../img/Icon/dentist-chair-1.svg';
+import { Link } from 'react-router-dom';
+
 export default function Servies_page() {
     return (
         <div>
@@ -17,9 +19,9 @@ export default function Servies_page() {
                         <Text_three>
                             Dr. Simmons and her team of Oral Surgeons and Periodontists are committed to providing you with the highest quality of implants and crowns.
                         </Text_three>
-                        <Button>
-                            Button text
-                        </Button>
+
+                        <Link to='/contact'><Button>Contact</Button></Link>
+
                     </Text>
                     <Img src={services} />
                 </Container>

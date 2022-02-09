@@ -1,5 +1,7 @@
 import React from 'react';
 import { Home_page, Container, Navbar_text_two, Navbar_text, Navbar_text_one, Button, Navbar, Flex_price ,Card , Card_item , Img, Text ,Flex,Flex_text, Flex_icon , Footer , Footer_button , Footer_text } from './main';
+import { Link } from 'react-router-dom';
+
 
 export default function Price_card() {
     return (
@@ -150,7 +152,6 @@ export default function Price_card() {
                             </Footer>
                         </Card_item>
                     </Card>
-            
                 </Container>
             </Home_page>
         </div>

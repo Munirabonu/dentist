@@ -13,12 +13,7 @@ export const Navbar = styled.div`
 
 `
 export const Navbar_link = styled(Link)` 
-    color:rgb(63,213,211);
-    font-size: 18px;
-    text-decoration: none;
-    &:active{
-        color: black;
-    }
+    font-size: 16px;
 `
 export const Navbar_text = styled.h1` 
     font-size: 40px;
@@ -46,15 +41,15 @@ export const Card_img = styled.img`
 export const Card_flex = styled.div` 
     display:flex;
     & button {
-        padding:10px 20px;
-        margin: auto 20px;
+        background: white;
+        padding:8px 20px;
+        margin: 20px 0;
         color: rgb(63,213,211);
-        border: 2px solid rgb(63,213,211);
+        border: 1px solid rgb(63,213,211);
         border-radius: 5px;
         &:hover{
             background-color: rgb(63,213,211);
             color: white;
-            transition: all .3s;
         }
     }
 `
@@ -69,6 +64,7 @@ export const Card_text_one = styled.h1`
 `
 export const Card_text_two = styled.p` 
     color: rgb(180,182,184);
+    font-size:18px;
 `
 
 export const Right = styled.div` 
@@ -108,4 +104,22 @@ export const New_text_two =styled.div`
     font-size:16px;
     color:rgb(132,135,135);
     margin-top: 10px;
+`
+export const Button = styled.div`
+    margin:30px 0;    
+    display:flex;
+    align-items:center;
+    font-size:18px;
+    font-weight:500;
+    color:rgb(63,213,211);
+    cursor: pointer;
+    &:hover {
+        color:rgb(210,138,229);
+    }
+`
+export const Button_text = styled.div` 
+    font-size: 35px;
+    display:flex;
+    align-items:center;
+    margin-left:15px;
 `

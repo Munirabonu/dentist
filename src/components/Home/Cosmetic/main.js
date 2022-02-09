@@ -1,5 +1,7 @@
 import styled from "styled-components"
 import animation from '../../../img/Icon/braces.svg'
+import animation1 from '../../../img/Icon/022-implant(1).svg'
+import animation3 from '../../../img/Icon/dentist-chair-1.svg'
 export const Container = styled.div`
     width: 90%;
     margin: 0 auto;
@@ -55,8 +57,11 @@ export const Img_item = styled.div `
             width :100px;
             height: 100px;
             bottom: -50px;
-            background: url(${animation});  
+            
+            background: ${props=>props.one ? 'url(${animation1})':'url(${animation})'};  
+            background:url(${animation3}) ;  
             background-color: white;
+
             background-size: cover;
             z-index: 2;
             border: 20px solid white;

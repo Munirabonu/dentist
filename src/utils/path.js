@@ -8,7 +8,9 @@ const Contacts = React.lazy(() => import("../page/Contacts/Contacts.jsx"));
 const AboutDoctor = React.lazy(() =>
   import("../components/Doctor/AboutDoctor/AboutDoctor.jsx")
 );
-
+const Blog_about = React.lazy(() =>
+  import("../components/Blog/Blog_about/Index.jsx")
+);
 const routes = [
   {
     id: 1,
@@ -51,6 +53,12 @@ const routes = [
     path: "/doctors/:id",
     title: "AboutDoctor",
     Component: AboutDoctor,
+  },
+  {
+    id: 8,
+    path: "/blog/:id",
+    title: "Blog_about",
+    Component: Blog_about,
   },
 ];
 

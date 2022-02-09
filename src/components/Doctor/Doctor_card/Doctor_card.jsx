@@ -1,16 +1,16 @@
 import React from "react";
 import {
-  Calls,
   Card,
   Container,
   Icon,
-  Icon_text,
   Img,
   List,
   List_text,
   Texts,
   Text_one,
   Text_two,
+  Button,
+  Button_text
 } from "./main";
 import doc from "../../../img/Icon/doctor.jpg";
 import { RightCircleOutlined } from "@ant-design/icons";
@@ -46,24 +46,15 @@ export default function Doctor_card() {
                 <Icon></Icon>
                 <List_text>{doctor.skill3}</List_text>
               </List>
+              <Button onClick={() => {
+                      history.push(`/doctors/${doctor.id}`);
+                    }}>
+                <span>Learn More</span>
+                <Button_text>
+                  <RightCircleOutlined/>
+                </Button_text>
+              </Button>
             </Texts>
-            <div style={{ display: "flex", fontSize: "20px" }}>
-              <span>Learn More</span>
-
-              <div>
-                <RightCircleOutlined
-                  onClick={() => {
-                    history.push(`/doctors/${doctor.id}`);
-                  }}
-                  style={{
-                    cursor: "pointer",
-                    fontSize: "24px",
-                    color: "#08c",
-                    margin: "10px",
-                  }}
-                />
-              </div>
-            </div>
           </Card>
         ))}
       </Container>

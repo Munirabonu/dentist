@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Navbar, Navbar_text_one, Navbar_text_two, Card, Icon, Text, Texts,Card_item, Button} from './main';
+import { Container, Navbar, Navbar_text_one, Navbar_text_two, Card, Icon, Text, Texts, Card_item, Button } from './main';
 import dentist from '../../../img/Icon/servies.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Check() {
     return (
@@ -12,28 +13,27 @@ export default function Check() {
                 </Navbar>
                 <Card>
                     <Card_item>
-                        <Icon src={dentist}/>
+                        <Icon src={dentist} />
                         <Text>Excellence in Basic Dental Care</Text>
                         <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Texts>
-                        <Button>Sirvis</Button>
+                        <Link to='/price'><Button>Price Guide</Button></Link>
+                    </Card_item>
+                    <Card_item>
+                        <Icon src={dentist} />
+                        <Text>Excellence in Basic Dental Care</Text>
+                        <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
+                        </Texts>
+                        <Link to='/price'><Button>Price Guide</Button></Link>
 
                     </Card_item>
-                    <Card_item>                        
-                        <Icon src={dentist}/>
-                        <Text>Excellence in Basic Dental Care</Text>
-                        <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
-                        </Texts>
-                <Button>Sirvis</Button>
-
-                        </Card_item>
                     <Card_item>
-                    <Icon src={dentist}/>
+                        <Icon src={dentist} />
                         <Text>Excellence in Basic Dental Care</Text>
                         <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Texts>
-                <Button>Sirvis</Button>
-                       </Card_item>
+                        <Link to='/price'><Button>Price Guide</Button></Link>
+                    </Card_item>
                 </Card>
             </Container>
         </div>
