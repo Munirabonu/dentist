@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import animation from '../../img/Icon/home-animation.svg';
+import bg_left from '../../img/Icon/bg_left.jpg';
 import { StarBorder } from '@styled-icons/material-rounded/StarBorder'
 import { PhoneCall } from '@styled-icons/feather/PhoneCall';
 
@@ -13,6 +13,7 @@ export const Home_page = styled.div`
 export const Container = styled.div`
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-between;
@@ -33,7 +34,7 @@ export const Text = styled.div`
         padding:50px;
     }
     `
-export const Text_p = styled.p`
+export const Text_p = styled.div`
     font-size: 70px;
     line-height: 0.97;
     @media (max-width:1200px){
@@ -51,6 +52,7 @@ export const Text_p = styled.p`
     `
 export const Smile_text = styled.p`
      font-size: 20px;
+     margin:2rem 0;
     @media (max-width:600px) {
         font-size: 18px;
     }
@@ -64,70 +66,95 @@ export const Img = styled.img`
 `
 export const Img_item = styled.div`
     margin-bottom: -30px;
-    margin-top: 70px;
+    margin-top: 100px;
     width: 100%;
     position: relative;
     display: flex;
     z-index: 3;
         
 `
-export const Animation_icon = styled(StarBorder)` 
+export const Bg_left=styled.img`
+    width:20%;
+    height:40%;
+    position:absolute;
+    bottom:0;
+    left:-5em;
+    z-index:4;    
+    box-shadow:none;
+`
+export const Bg_right=styled(Bg_left)`
+    height:100%;
+    left:95%;
+`
+const star=styled(StarBorder)`
+    font-weight: 900;
     position: absolute;
+    color:rgb(169,142,237);
+    z-index: 10;
+    animation: example 3s ease-in-out  infinite alternate;
+    @keyframes example {
+    from {color:rgb(63,213,211);transform:scale(0.5)}
+    to {color:rgb(169,142,237); transform:scale(1)}
+    }
+    @media(max-width:425px){
+        width: 20px;
+    }
+
+`
+export const Animation_icon = styled(star)` 
     right: 0;
-    top: 50%;
-    color:rgb(169,142,237);
-    font-weight: 900;
+    top: 51%;
     bottom: 0;
-    width: 30px;
-    height: 30px;
-    z-index: 10;
-    animation: example 1s linear 1s infinite alternate;
-    @keyframes example {
-    from {color:rgb(63,213,211); display: none;}
-    to {color:rgb(169,142,237); display:none;}
-    }
-    @media(max-width:425px){
-        width: 20px;
-    }
+    width: 45px;
+    height: 45px;
+    animation-delay: 1s;
 `
-export const Animation_icon2 = styled(StarBorder)` 
-    position: absolute;
-    color:rgb(169,142,237);
-    font-weight: 900;
-    right: 10px;
+export const Animation_icon2 = styled(star)` 
+    right: -10px;
     top: 40%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 2s;
+    `
+export const Animation_icon3 = styled(star)` 
+    top: 45%;
+    right: 30px;
     width: 30px;
     height: 30px;
-    z-index: 10;
-    animation: example 1s linear 2s infinite alternate;
-    @keyframes example {
-    from {color:rgb(63,213,211); display: none;}
-    to {color:rgb(169,142,237); display:none;}
-    }
-    @media(max-width:425px){
-        width: 20px;
-    }
+    animation-delay: 3s;
 `
-export const Animation_icon3 = styled(StarBorder)` 
-    position: absolute;
-    top: 45%;
-    right: 0px;
-    margin: 20px;
-    color:rgb(169,142,237);
-    font-weight: 900;
-    width: 20px;
-    height: 20px;
-    z-index: 10;
-    animation: example 1s linear 3s infinite alternate;
-    @keyframes example {
-    from {color:rgb(63,213,211); display: none;}
-    to {color:rgb(169,142,237); display:none;}
-    }
+export const Top_animation_icon1 = styled(star)` 
+    top:-50px;
+    left: 0;
+    width:30px;
+    height:30px;
+    animation-delay: 1s;
+
+ `
+
+
+export const Top_animation_icon2 = styled(star)` 
+    top:0px;
+    left: -50px;
+    width:50px;
+    height:50px;
+    animation-delay: 2s;
+
+`
+
+export const Top_animation_icon3 = styled(star)` 
+    top:-15px;
+    left: 20px;
+    width:40px;
+    height:40px;
+    animation-delay: 3s;
+
 `
 
 export const Call = styled.a`
     text-decoration: none;
-    background:linear-gradient(to right, white 50%,rgb(63,213,211));
+    background:rgb(63,213,211);
+    color:white;
     padding: 20px;
     border-radius: 25px;
     @media(max-width:425px){
@@ -135,15 +162,14 @@ export const Call = styled.a`
     }
 `
 export const Icon = styled(PhoneCall)`
-    color:blue;
-    width: 20px;
-    padding:2px;
-    border:2px solid rgb(169,142,237);
+    color:white;
+    width: 30px;
+    padding:5px;
+    border:2px solid white;
     border-radius:50%;
-    /* display:inline-block; */
 `
 export const Icon_text = styled.p`
-    color:rgb(169,142,237);
+    color:white;
     font-size: 15px;
     display:inline;
     font-weight: 800;

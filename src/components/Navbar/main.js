@@ -3,6 +3,14 @@ import { NavLink } from "react-router-dom";
 
 export const Navbar_page = styled.div`
   display: flex;
+  align-items:center;
+  /* border-bottom: 2px solid rgba(195, 191, 191, 0.685); */
+  box-shadow:0px 1px 10px white;
+  position:fixed;
+  top:0;
+  width:100%;
+  background: white;
+  z-index:999;
 `;
 export const Drop = styled.div`
   display: none;
@@ -24,8 +32,27 @@ export const Link = styled(NavLink)`
   line-height: 26px;
   color: grey;
   text-decoration: none;
-  &:hover {
-  }
+  transition: all .5s ;
+  position: relative;
+  &::before {
+          position: absolute;
+          content: "";
+          height: 3px;
+          width: 100%;
+          bottom: -10px;
+          background: linear-gradient(to right, rgb(210,234,255),rgb(169,142,237));
+          transition: transform 0.5s ease-in-out;
+          transform: scaleX(0);
+          transform-origin: right;
+        }
+        &:focus::before,
+        &:hover::before {
+          transform: scaleX(1);
+          transform-origin: left;
+        }
+        &:hover {
+          color: #685ed6;
+        }
 `;
 export const Img = styled.div`
   display: flex;

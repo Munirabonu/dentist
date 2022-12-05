@@ -4,17 +4,14 @@ import NavbarRoutes from "../../routes/routes";
 import {
   Containers,
   Drop,
-  Icon,
   Link,
-  Icon_text,
   Img,
   Navbar_page,
-  Text,
   Ul,
   Item,
   activeStyle,
 } from "./main";
-import logo from "../../img/Icon/dental/ПЕЧАТЬ.png";
+import logo from "../../img/Icon/dental/logo.png";
 
 export default function Navbars() {
   return (
@@ -22,7 +19,7 @@ export default function Navbars() {
       <Containers>
         <Img>
           <Link to="/">
-            <img src={logo} width={80} alt="" />
+            <img src={logo} width={80} alt="logo" />
           </Link>
         </Img>
         <Ul>
