@@ -1,21 +1,21 @@
 import React from 'react'
-import { Container, Home_page, Text, Img, Text_one, Icon, Text_two, Text_three, Button, Button_footer_text, Icon_Text } from './main'
+import { Container, HomePage, Text, Img, TextOne, Icon, TextTwo, TextThree, Button, ButtonFooterText, Icon_Text } from './main'
 import doctor from '../../../img/Icon/home-doctor.jpg';
 import { Link } from 'react-router-dom';
 export default function Home_doctor() {
     return (
         <div>
-            <Home_page>
+            <HomePage>
                 <Container>
                     <Img src={doctor} />
                     <Text>
-                        <Text_one>
+                        <TextOne>
                             Includes free consultation*
-                        </Text_one>
-                        <Text_two>
+                        </TextOne>
+                        <TextTwo>
                             Get Complete Dental Implant: Save 15%
-                        </Text_two>
-                        <Text_three>
+                        </TextTwo>
+                        <TextThree>
                             <Icon></Icon>
                             <Icon_Text>lorem  dolor sit ametipisicing elit.</Icon_Text>
                             <Icon></Icon>
@@ -29,12 +29,12 @@ export default function Home_doctor() {
                             <Icon></Icon>
                             <Icon_Text>lorem adipisicing elit.</Icon_Text>
                             
-                        </Text_three>
+                        </TextThree>
                         <Link style={{color:'white'}} to='/doctors' exact><Button>More...</Button></Link>
                         </Text>
                     {/* <After src={home_animation} /> */}
                 </Container>
-            </Home_page>
+            </HomePage>
         </div>
     )
 }

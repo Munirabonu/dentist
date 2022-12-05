@@ -31,13 +31,13 @@ export const Texts = styled.div`
     justify-content:space-between;
 
 `
-export const Text_one = styled.p` 
+export const TextOne = styled.p` 
     font-size: 25px;    
     font-weight: 700;
     margin: 0;
     
     `
-export const Text_two = styled.p` 
+export const TextTwo = styled.p` 
     margin: 10px 0 ;
     font-size: 18px;
     color: rgb(156,145,165);
@@ -72,7 +72,7 @@ export const Button = styled.div`
         color:rgb(210,138,229);
     }
 `
-export const Button_text = styled.div` 
+export const ButtonText = styled.div` 
     font-size: 35px;
     display:flex;
     align-items:center;

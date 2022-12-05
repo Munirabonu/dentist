@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Navbar_text_one, Navbar_text_two, Card, Icon, Text, Texts,Card_item, Button} from './main';
+import { Container, Navbar, NavbarTextOne, NavbarText_two, Card, Icon, Text, Texts,Card_item, Button} from './main';
 import dentist from '../../../img/Icon/quote-1.png';
 import { Link } from 'react-router-dom';
 
@@ -8,8 +8,8 @@ export default function Work() {
         <div>
             <Container>
                 <Navbar>
-                    <Navbar_text_one>Top Reviews</Navbar_text_one>
-                    <Navbar_text_two>More than 250 five-star reviews on Google</Navbar_text_two>
+                    <NavbarTextOne>Top Reviews</NavbarTextOne>
+                    <NavbarText_two>More than 250 five-star reviews on Google</NavbarText_two>
                 </Navbar>
                 <Card>
                     <Card_item>

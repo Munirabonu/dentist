@@ -48,14 +48,14 @@ export const Grid_item = styled.div`
     font-weight: 500;
     color:rgb(25,49,57);
 `
-export const Text_one = styled.div` 
+export const TextOne = styled.div` 
     font-size:28px;
     @media(max-width:425px){
     font-size:20px;
     }
 
 `
-export const Text_two = styled.div` 
+export const TextTwo = styled.div` 
     font-size: 13px;
     margin-top: 20px;
     color:rgb(120,128,120);

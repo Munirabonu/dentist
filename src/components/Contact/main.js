@@ -2,7 +2,7 @@ import styled from "styled-components";
 import animation from '../../img/Icon/home-animation.svg';
 import {StarBorder} from '@styled-icons/material-rounded/StarBorder'
 
-export const Home_page = styled.div`
+export const HomePage = styled.div`
     background-color:rgb(221,239,253) ;
 `
 export const Container = styled.div`
@@ -24,19 +24,19 @@ export const Text = styled.div`
        width: 100%;
     }
 `
-export const Text_one = styled.p`
+export const TextOne = styled.p`
     color: rgb(63,213,211);
     font-size: 14px;
     font-weight: 600;
 
 `
-export const Text_two = styled.p`
+export const TextTwo = styled.p`
     font-size: 35px;
     @media(max-width:425px){
         font-size: 30px;
     }
     `
-export const Text_three = styled.p`
+export const TextThree = styled.p`
     font-size: 16px;
     word-spacing: 3px;
     color: rgb(121,119,123);
@@ -55,7 +55,7 @@ export const Button = styled.button`
         background: rgb(169,142,237);
     }
 `
-export const Button_footer_text = styled.p`
+export const ButtonFooterText = styled.p`
     margin: 10px;
     font-size: 12px;
     color: grey;
@@ -64,7 +64,7 @@ export const Img = styled.img`
     width: 100%;
     z-index: 5;
 `
-export const Img_item = styled.div` 
+export const ImgItem = styled.div` 
     width: 100%;
     height: 100%;
     position: relative;
@@ -90,7 +90,7 @@ export const Img_item = styled.div`
     }
 
 `
-export const Animation_icon = styled(StarBorder)` 
+export const AnimationIcon = styled(StarBorder)` 
     position: absolute;
     left:-40px;
     color:rgb(169,142,237);
@@ -105,7 +105,7 @@ export const Animation_icon = styled(StarBorder)`
     to {color:rgb(169,142,237); display:none;}
     }
 `
-export const Animation_icon2 = styled(StarBorder)` 
+export const AnimationIcon2 = styled(StarBorder)` 
     position: absolute;
     margin-bottom: -20px;
     color:rgb(169,142,237);
@@ -120,7 +120,7 @@ export const Animation_icon2 = styled(StarBorder)`
     to {color:rgb(169,142,237); display:none;}
     }
 `
-export const Animation_icon3 = styled(StarBorder)` 
+export const AnimationIcon3 = styled(StarBorder)` 
     position: absolute;
     margin: 20px;
     color:rgb(169,142,237);

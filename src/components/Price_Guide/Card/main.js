@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {CheckLg} from '@styled-icons/bootstrap/CheckLg';
 import {ArrowRightShort} from "@styled-icons/bootstrap/ArrowRightShort"
 
-export const Home_page = styled.div`
+export const HomePage = styled.div`
     box-sizing: border-box;
     background: rgb(238,231,255);
     @media(max-width:850px){
@@ -22,11 +22,11 @@ export const Navbar = styled.div`
     text-align: center;
 
 `
-export const Navbar_text_one = styled.p`
+export const NavbarTextOne = styled.p`
     font-size: 30px;
     margin-bottom: 10px;
 `
-export const Navbar_text_two = styled.p`
+export const NavbarText_two = styled.p`
     font-size: 16px;
     word-spacing: 3px;
     color: rgb(121,119,123);

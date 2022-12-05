@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { PhoneCall } from '@styled-icons/feather/PhoneCall';
 
-export const Home_page = styled.div`
+export const HomePage = styled.div`
         margin: 0px auto;
         margin-top: 80px;
         box-sizing: border-box;
@@ -53,18 +53,18 @@ export const Text = styled.div`
        width: 100%;
     }
 `
-export const Text_one = styled.p`
+export const TextOne = styled.p`
     font-size: 28px;
     @media(max-width:425px){
         font-size: 20px;
     }
 
 `
-export const Text_two = styled.p`
+export const TextTwo = styled.p`
     font-size: 15px;
     color:grey;
 `
-export const Text_three = styled.p`
+export const TextThree = styled.p`
     font-size: 16px;
     word-spacing: 3px;
     color: rgb(121,119,123);

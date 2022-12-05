@@ -12,10 +12,10 @@ export const Container = styled.div`
 export const Navbar = styled.div` 
 
 `
-export const Navbar_link = styled(Link)` 
+export const NavbarLink = styled(Link)` 
     font-size: 16px;
 `
-export const Navbar_text = styled.h1` 
+export const NavbarText = styled.h1` 
     font-size: 40px;
     font-weight: 550;
 `
@@ -35,10 +35,10 @@ export const Card = styled.div`
   border-bottom: 2px solid rgb(156,145,156,0.2);
   margin-bottom: 50px;
 `
-export const Card_img = styled.img`
+export const CardImg = styled.img`
     width: 100%;
 `
-export const Card_flex = styled.div` 
+export const CardFlex = styled.div` 
     display:flex;
     & button {
         background: white;
@@ -53,7 +53,7 @@ export const Card_flex = styled.div`
         }
     }
 `
-export const Card_text_one = styled.h1` 
+export const CardTextOne = styled.h1` 
     &:hover{
        color: rgb(160,162,164);
        transition: color .5s;
@@ -62,7 +62,7 @@ export const Card_text_one = styled.h1`
         font-size: 20px;
     }
 `
-export const Card_text_two = styled.p` 
+export const CardTextTwo = styled.p` 
     color: rgb(180,182,184);
     font-size:18px;
 `
@@ -73,10 +73,10 @@ export const Right = styled.div`
     height: 100vh;
     width: 100%;
 `
-export const Text_one = styled.p` 
+export const TextOne = styled.p` 
     color:rgb(63,213,211);
 `
-export const List_item = styled.div` 
+export const ListItem = styled.div` 
     font-size: 20px;
     border-bottom: ${({end})=>end ? 'none':"1px solid rgb(183,182,182)"};
     padding: 18px 0;
@@ -97,7 +97,7 @@ export const Icon = styled(Newsletter)`
     color :rgb(169,142,237);
     width: 80px;
 `
-export const New_text_one =styled.div` 
+export const New_TextOne =styled.div` 
     font-size:30px;
 `
 export const New_text_two =styled.div` 
@@ -117,7 +117,7 @@ export const Button = styled.div`
         color:rgb(210,138,229);
     }
 `
-export const Button_text = styled.div` 
+export const ButtonText = styled.div` 
     font-size: 35px;
     display:flex;
     align-items:center;

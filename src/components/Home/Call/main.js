@@ -15,13 +15,13 @@ export const Container = styled.div `
 export const Text = styled.div ` 
 
 `
-export const Text_one = styled.div ` 
+export const TextOne = styled.div ` 
     font-size:28px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     color:rgb(25,49,57);
 `
-export const Text_two = styled.div` 
+export const TextTwo = styled.div` 
     font-size: 15px;
     margin-top: 20px;
     color:rgb(120,128,120);

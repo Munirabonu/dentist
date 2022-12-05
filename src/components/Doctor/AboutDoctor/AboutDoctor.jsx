@@ -6,17 +6,16 @@ import { Breadcrumb } from 'antd';
 
 import {
   Navbar,
-  Navbar_link,
+  NavbarLink,
   Card,
   Icon,
   Img,
   List,
   List_text,
   Texts,
-  Text_one,
-  Text_two,
+  TextOne,
+  TextTwo,
   Button,
-  Button_text,
   Text,
   Facebooks,
   Instagrams,
@@ -38,18 +37,18 @@ const AboutDoctor = () => {
 
       <Breadcrumb>
         <Breadcrumb.Item>
-          <Navbar_link style={{ color: 'rgb(63,213,211)' }} to='/'>Home</Navbar_link>
+          <NavbarLink style={{ color: 'rgb(63,213,211)' }} to='/'>Home</NavbarLink>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <Navbar_link to='/doctor'>Doctor</Navbar_link>
+          <NavbarLink to='/doctor'>Doctor</NavbarLink>
         </Breadcrumb.Item>
       </Breadcrumb>
       </Navbar>
       <Card key={doctor.id}>
         <Img src={doc}></Img>
         <Texts>
-          <Text_one>{doctor?.name}</Text_one>
-          <Text_two>{doctor?.job}</Text_two>
+          <TextOne>{doctor?.name}</TextOne>
+          <TextTwo>{doctor?.job}</TextTwo>
           <List>
             <Icon></Icon>
             <List_text>{doctor.skill1}</List_text>

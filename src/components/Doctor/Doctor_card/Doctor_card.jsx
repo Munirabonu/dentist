@@ -7,10 +7,10 @@ import {
   List,
   List_text,
   Texts,
-  Text_one,
-  Text_two,
+  TextOne,
+  TextTwo,
   Button,
-  Button_text
+  ButtonText
 } from "./main";
 import doc from "../../../img/Icon/doctor.jpg";
 import { RightCircleOutlined } from "@ant-design/icons";
@@ -32,8 +32,8 @@ export default function Doctor_card() {
           <Card key={index}>
             <Img src={doc}></Img>
             <Texts>
-              <Text_one>{doctor.name}</Text_one>
-              <Text_two>{doctor.job}</Text_two>
+              <TextOne>{doctor.name}</TextOne>
+              <TextTwo>{doctor.job}</TextTwo>
               <List>
                 <Icon></Icon>
                 <List_text>{doctor.skill1}</List_text>
@@ -50,9 +50,9 @@ export default function Doctor_card() {
                       history.push(`/doctors/${doctor.id}`);
                     }}>
                 <span>Learn More</span>
-                <Button_text>
+                <ButtonText>
                   <RightCircleOutlined/>
-                </Button_text>
+                </ButtonText>
               </Button>
             </Texts>
           </Card>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container ,Icons,Icon_text , Icon , Grid , Grid_item , Text_one , Text_two,Flex,Flex_icon,Flex_text} from './main';
+import { Container ,Icons,Icon_text , Icon , Grid , Grid_item , TextOne , TextTwo,Flex,Flex_icon,Flex_text} from './main';
 
 export default function Practic() {
     return (
@@ -11,12 +11,12 @@ export default function Practic() {
                 </Icons>
                 <Grid>
                     <Grid_item>
-                        <Text_one>
+                        <TextOne>
                             Our practice remains open and welcoming patients
-                        </Text_one>
-                        <Text_two>
+                        </TextOne>
+                        <TextTwo>
                             There are no restrictions with regards to medical treatments and you are actively encouraged to keep your appointments.
-                        </Text_two>
+                        </TextTwo>
                     </Grid_item>
                     <Grid_item>
                         <Flex>

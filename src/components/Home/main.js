@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import bg_left from '../../img/Icon/bg_left.jpg';
 import { StarBorder } from '@styled-icons/material-rounded/StarBorder'
 import { PhoneCall } from '@styled-icons/feather/PhoneCall';
 
-export const Home_page = styled.div`
+export const HomePage = styled.div`
     height: 105vh;
     background: linear-gradient(to right, rgb(210,234,255),rgb(218,206,255));
     @media (max-width:1200px){
@@ -64,7 +63,7 @@ export const Img = styled.img`
     z-index: 5;
     width: 100%;
 `
-export const Img_item = styled.div`
+export const ImgItem = styled.div`
     margin-bottom: -30px;
     margin-top: 100px;
     width: 100%;
@@ -101,7 +100,7 @@ const star=styled(StarBorder)`
     }
 
 `
-export const Animation_icon = styled(star)` 
+export const AnimationIcon = styled(star)` 
     right: 0;
     top: 51%;
     bottom: 0;
@@ -109,14 +108,14 @@ export const Animation_icon = styled(star)`
     height: 45px;
     animation-delay: 1s;
 `
-export const Animation_icon2 = styled(star)` 
+export const AnimationIcon2 = styled(star)` 
     right: -10px;
     top: 40%;
     width: 40px;
     height: 40px;
     animation-delay: 2s;
     `
-export const Animation_icon3 = styled(star)` 
+export const AnimationIcon3 = styled(star)` 
     top: 45%;
     right: 30px;
     width: 30px;

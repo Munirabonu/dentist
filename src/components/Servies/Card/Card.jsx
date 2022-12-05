@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Img,Card, Text_two, Text_one, Texts } from './main';
+import { Container, Img,Card, TextTwo, TextOne, Texts } from './main';
 import doctors from '../../../img/Icon/doctors.jpg'
 export default function Card_page() {
     return (
@@ -8,30 +8,30 @@ export default function Card_page() {
     <Card>
         <Img  />
         <Texts>
-        <Text_one>Porcelain Veneers</Text_one>
-        <Text_two>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</Text_two>
+        <TextOne>Porcelain Veneers</TextOne>
+        <TextTwo>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</TextTwo>
         </Texts>
     </Card>
     <Card>
         <Img  />
         <Texts>
-        <Text_one>Porcelain Veneers</Text_one>
-        <Text_two>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</Text_two>
+        <TextOne>Porcelain Veneers</TextOne>
+        <TextTwo>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</TextTwo>
         </Texts>
     </Card>
     <Card>
         <Img  />
         <Texts>
-        <Text_one>Porcelain Veneers</Text_one>
-        <Text_two>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</Text_two>
+        <TextOne>Porcelain Veneers</TextOne>
+        <TextTwo>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</TextTwo>
         </Texts>
     </Card>
     
     <Card>
         <Img  />
         <Texts>
-        <Text_one>Porcelain Veneers</Text_one>
-        <Text_two>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</Text_two>
+        <TextOne>Porcelain Veneers</TextOne>
+        <TextTwo>Get a flawless smile, with the help of porcelain veneers. This customized cosmetic treatment transforms teeth into a VIP smile.</TextTwo>
         </Texts>
     </Card>
 </Container>

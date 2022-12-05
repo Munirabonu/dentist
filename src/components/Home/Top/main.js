@@ -7,11 +7,11 @@ export const Container = styled.div`
 export const Navbar = styled.div`
     text-align: center;
 `
-export const Navbar_text_one = styled.p`
+export const NavbarTextOne = styled.p`
     font-size:30px;
     margin:10px 0;
 `
-export const Navbar_text_two = styled.p`
+export const NavbarText_two = styled.p`
     font-size:15px;
     margin:20px 0;
 `

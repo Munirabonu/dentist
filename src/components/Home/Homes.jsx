@@ -1,15 +1,15 @@
 import React from "react";
 import {
   Container,
-  Home_page,
+  HomePage,
   Text_p,
   Smile_text,
   Text,
   Img,
-  Img_item,
-  Animation_icon,
-  Animation_icon2,
-  Animation_icon3,
+  ImgItem,
+  AnimationIcon,
+  AnimationIcon2,
+  AnimationIcon3,
   Icon,
   Icon_text,
   Call,
@@ -19,12 +19,12 @@ import {
   Bg_left,
   Bg_right,
 } from "./main";
-import home_page from "../../img/Icon/home_page.jpg";
-import bg_left from '../../img/Icon/bg_left.jpg';
+import homePage from "../../img/Icon/home_page.jpg";
+
 export default function Homes() {
   return (
     <div>
-      <Home_page>
+      <HomePage>
         <Container>
           <Text>
             <Text_p>A first class dentistry experience</Text_p>
@@ -36,19 +36,19 @@ export default function Homes() {
               <Icon_text> 1-33-1212-121</Icon_text>
             </Call>
           </Text>
-          <Img_item>
+          <ImgItem>
             <Bg_left src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/home-3.svg'/>
             <Top_animation_icon1 />
             <Top_animation_icon2 />
             <Top_animation_icon3 />
-            <Img src={home_page} />
-            <Animation_icon />
-            <Animation_icon2 />
-            <Animation_icon3 />
+            <Img src={homePage} />
+            <AnimationIcon />
+            <AnimationIcon2 />
+            <AnimationIcon3 />
           <Bg_right  src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/home-2.svg'/>
-          </Img_item>
+          </ImgItem>
         </Container>
-      </Home_page>
+      </HomePage>
     </div>
   );
 }

@@ -21,7 +21,7 @@ export const Grid = styled.div`
         grid-template-columns: 100%;
     }
 `
-export const Grid_text = styled.div` 
+export const GridText = styled.div` 
     padding: 50px;
     & YMaps {
         width: 100px;

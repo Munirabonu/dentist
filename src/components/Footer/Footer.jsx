@@ -6,7 +6,6 @@ import {
   Opens,
   Recurs,
   Item,
-  Items,
   Link,
   Flex,
   Flex_item,
@@ -18,9 +17,6 @@ import {
   activeStyle,
 } from "./main";
 import { YMaps, Map, Placemark } from "react-yandex-maps";
-import Facebook from "@styled-icons/boxicons-logos/Facebook";
-import Twitter from "@styled-icons/boxicons-logos/Twitter";
-import Instagram from "@styled-icons/boxicons-logos/Instagram";
 import routes from "../../utils/path";
 
 export default function Footer() {

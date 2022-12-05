@@ -8,7 +8,7 @@ export default function Blog_about() {
 
     return (
         <Page>
-            {data.filter((value) => value.id == params.id).map((value) => {
+            {data.filter((value) => value.id === params.id).map((value) => {
                 return (
                     <div style={{ textAlign: "center" }}>
                         <Title>{value.title}</Title>

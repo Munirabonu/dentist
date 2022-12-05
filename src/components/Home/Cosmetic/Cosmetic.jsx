@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Container, Img, Img_item, Item,Item_text,Text, Text_One, Text_Three, Text_Two } from './main'
+import { Button, Card, Container, Img, ImgItem, Item,Item_text,Text, TextOne, TextThree, TextTwo } from './main'
 import general from '../../../img/Icon/home-card-1.jpg'
 
 import { Link } from 'react-router-dom'
@@ -8,32 +8,32 @@ export default function Cosmetic() {
     return (
         <div>
             <Container>
-                <Text_One>Welcome to Dentico Clinic</Text_One>
-                <Text_Two>Cosmetic & General Dentistry</Text_Two>
-                <Text_Three>Every day, more than 100 patients receive professional assistance in our clinic.</Text_Three>
+                <TextOne>Welcome to Dentico Clinic</TextOne>
+                <TextTwo>Cosmetic & General Dentistry</TextTwo>
+                <TextThree>Every day, more than 100 patients receive professional assistance in our clinic.</TextThree>
                 <Card>
                     <Item>
-                        <Img_item one>
+                        <ImgItem one>
                             <Img src={general} />
-                        </Img_item>
+                        </ImgItem>
                         <Text>General Dentistry</Text>
                         <Item_text>
                         General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.
                         </Item_text>
                     </Item>
                     <Item> 
-                        <Img_item>
+                        <ImgItem>
                             <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/05/home-20.jpg' />
-                        </Img_item>
+                        </ImgItem>
                         <Text>General Dentistry</Text>
                         <Item_text>
                         General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.
                         </Item_text>
                     </Item>
                     <Item>
-                    <Img_item>
+                    <ImgItem>
                             <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/05/home-19.jpg' />
-                        </Img_item>
+                        </ImgItem>
                         <Text>General Dentistry</Text>
                         <Item_text>
                         General dentistry incorporates a broad range of diseases and disorders of the oral and maxillofacial region.

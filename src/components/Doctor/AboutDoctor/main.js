@@ -10,7 +10,7 @@ export const Navbar = styled.div`
     width:90%;
     margin:20px auto;
 `
-export const Navbar_link = styled(Link)` 
+export const NavbarLink = styled(Link)` 
     font-size: 16px;
     margin:20px 0;
     padding:10px 0;
@@ -38,12 +38,12 @@ export const Texts = styled.div`
     justify-content:space-between;
 
 `
-export const Text_one = styled.p` 
+export const TextOne = styled.p` 
     font-size: 25px;    
     font-weight: 700;
     margin: 0;
     `
-export const Text_two = styled.p` 
+export const TextTwo = styled.p` 
     margin: 10px 0 ;
     font-size: 18px;
     color: rgb(156,145,165);

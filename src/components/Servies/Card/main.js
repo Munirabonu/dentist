@@ -33,10 +33,10 @@ export const Icon =styled.div`
 export const Texts = styled.div`
     padding: 35px;
 `
-export const Text_one=styled.p` 
+export const TextOne=styled.p` 
     font-size: 30px;
 `
-export const Text_two  =styled.p` 
+export const TextTwo  =styled.p` 
     font-size: 20px;
     color: rgb(165,176,176);
 `

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  Home_page,
+  HomePage,
   Container,
-  Navbar_text_two,
-  Navbar_text,
-  Navbar_text_one,
+  NavbarText_two,
+  NavbarText,
+  NavbarTextOne,
   Button,
   Navbar,
   Flex_price,
@@ -24,16 +24,16 @@ import {
 export default function Price() {
   return (
     <div>
-      <Home_page>
+      <HomePage>
         <Container>
           <Navbar>
-            <Navbar_text>
-              <Navbar_text_one>Price Guide</Navbar_text_one>
-              <Navbar_text_two>
+            <NavbarText>
+              <NavbarTextOne>Price Guide</NavbarTextOne>
+              <NavbarText_two>
                 We treat every patient as an individual and create treatment
                 plans to fit your specific needs.
-              </Navbar_text_two>
-            </Navbar_text>
+              </NavbarText_two>
+            </NavbarText>
             <Link style={{ color: "white" }} to="/price" exact>
               <Button>More..</Button>
             </Link>
@@ -140,7 +140,7 @@ export default function Price() {
             </Card_item>
           </Card>
         </Container>
-      </Home_page>
+      </HomePage>
     </div>
   );
 }

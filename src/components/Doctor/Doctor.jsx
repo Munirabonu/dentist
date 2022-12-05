@@ -1,32 +1,32 @@
 import React from 'react'
-import { Container, Home_page, Text,Img,  Text_one, Text_two, Text_three, Button, Button_footer_text } from './main'
-import home_page from '../../img/Icon/doctors.jpg';
+import { Container, HomePage, Text,Img,  TextOne, TextTwo, TextThree, Button, ButtonFooterText } from './main'
+import doctors from '../../img/Icon/doctors.jpg';
 
 export default function Doctor() {
     return (
         <div>
-            <Home_page>
+            <HomePage>
                 <Container>
                     <Text>
-                    <Text_one>
+                    <TextOne>
                     Includes free consultation*
-                    </Text_one>
-                    <Text_two>
+                    </TextOne>
+                    <TextTwo>
                     Get Complete Dental Implant: Save 15%
-                    </Text_two>
-                    <Text_three>
+                    </TextTwo>
+                    <TextThree>
                     Dr. Simmons and her team of Oral Surgeons and Periodontists are committed to providing you with the highest quality of implants and crowns.
-                    </Text_three>
+                    </TextThree>
                     <Button>
                         Button text
                     </Button>
-                    <Button_footer_text>
+                    <ButtonFooterText>
                     *The offer expires on August 30, 2021
-                    </Button_footer_text>
+                    </ButtonFooterText>
                     </Text>
-                    <Img src={home_page} />
+                    <Img src={doctors} />
                 </Container>
-            </Home_page>
+            </HomePage>
         </div>
     )
 }

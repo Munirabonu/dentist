@@ -14,12 +14,12 @@ export const Navbar = styled.div`
     width: 100%;
 }
 `
-export const Navbar_text_one = styled.h3`
+export const NavbarTextOne = styled.h3`
     font-size:20px;
     margin:10px 0;
     color: rgb(63,213,211);
 `
-export const Navbar_text_two = styled.p`
+export const NavbarText_two = styled.p`
     font-weight: 500;
     font-size:30px;
 `
