@@ -30,7 +30,7 @@ export default function Home_doctor() {
                             <Icon_Text>lorem adipisicing elit.</Icon_Text>
                             
                         </Text_three>
-                        <Link style={{color:'white'}} to='/doctors' exact><Button>Batafsil..</Button></Link>
+                        <Link style={{color:'white'}} to='/doctors' exact><Button>More...</Button></Link>
                         </Text>
                     {/* <After src={home_animation} /> */}
                 </Container>

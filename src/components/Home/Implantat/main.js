@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const Home_page = styled.div`
-    /* width: 98%; */
     margin: 0px auto;
     margin-top: 100px;
-    /* height: 110vh; */
 `
 export const Container = styled.div`
     width: 80%;
@@ -61,5 +59,4 @@ export const Button_footer_text = styled.p`
 `
 export const Img = styled.img`
     width: 100%;
-    /* height: 100%; */
 `

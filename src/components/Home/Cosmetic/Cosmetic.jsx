@@ -23,7 +23,7 @@ export default function Cosmetic() {
                     </Item>
                     <Item> 
                         <Img_item>
-                            <Img src={general} />
+                            <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/05/home-20.jpg' />
                         </Img_item>
                         <Text>General Dentistry</Text>
                         <Item_text>
@@ -32,7 +32,7 @@ export default function Cosmetic() {
                     </Item>
                     <Item>
                     <Img_item>
-                            <Img src={general} />
+                            <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/05/home-19.jpg' />
                         </Img_item>
                         <Text>General Dentistry</Text>
                         <Item_text>

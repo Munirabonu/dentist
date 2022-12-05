@@ -45,17 +45,7 @@ export const Right = styled.div`
         border-width: 0 100px 100px 0;
 }
 `
-export const Right_text = styled.div `
-    /* position: absolute;
-    padding-top:0px;
-    transform:rotate(45deg);
-    transform-origin: right bottom;
-    text-align: center;
-    color:white;
-    @media(max-width:425px){
-    padding-top: 0px;
-} */
-`
+
 export const Text = styled.div`
     width: 30vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -111,12 +101,14 @@ export const Call = styled.a`
     text-decoration: none;
 `
 export const Icon = styled(PhoneCall)`
-    color:blue;
-    width: 15px;
-    padding:8px 10px;
+    color:rgb(169,142,237);
+    width: 40px;
+    height:40px;
+    padding:5px;
     border:2px solid rgb(169,142,237);
     border-radius:50%;
     display:inline-block;
+    margin:2px;
 `
 export const Icon_text = styled.p`
     color:rgb(169,142,237);

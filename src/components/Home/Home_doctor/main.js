@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { PlusCircle } from '@styled-icons/bootstrap/PlusCircle';
 
 export const Home_page = styled.div`

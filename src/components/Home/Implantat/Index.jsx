@@ -18,13 +18,12 @@ export default function Implantat() {
                     <Text_three>
                     Dr. Simmons and her team of Oral Surgeons and Periodontists are committed to providing you with the highest quality of implants and crowns.
                     </Text_three>
-                    <Link style={{color:'white'}} to='/doctors' exact><Button>Batafsil..</Button></Link>
+                    <Link style={{color:'white'}} to='/doctors' exact><Button>More...</Button></Link>
                          <Button_footer_text>
                     *The offer expires on August 30, 2021
                     </Button_footer_text>
                     </Text>
                     <Img src={home_page} />
-                    {/* <After src={home_animation} /> */}
                 </Container>
             </Home_page>
         </div>

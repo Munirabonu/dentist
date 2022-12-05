@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import { CheckLg } from '@styled-icons/bootstrap/CheckLg';
+import { SecurePayment } from '@styled-icons/remix-fill/SecurePayment';
+
+
 
 export const Container = styled.div` 
     width:80%;
@@ -15,16 +18,19 @@ export const Container = styled.div`
 `
 export const Icons = styled.div` 
     display:flex;
+    align-items:center; 
 `
-export const Icon = styled.div` 
-    width:20px;
-    height:20px;
-    background: blueviolet;
-    align-self:center;
-`
-export const Icon_text = styled.p` 
+export const Icon = styled(SecurePayment)` 
+    width:30px;
+    height:30px;
     color:rgb(63,213,211);
+`
+export const Icon_text = styled.div` 
     font-weight: 700;
+    font-size:20px;
+    background: -webkit-linear-gradient(rgb(138,43,226), rgb(63,213,211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 `
 export const Grid = styled.div` 
     display:grid;

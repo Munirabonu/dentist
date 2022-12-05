@@ -48,7 +48,7 @@ export default function Price_card() {
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Footer>
-                                <Footer_text>Batafsil...</Footer_text>
+                                <Footer_text>More...</Footer_text>
                                 <Footer_button></Footer_button>
                             </Footer>
                         </Card_item>
@@ -81,7 +81,7 @@ export default function Price_card() {
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Footer>
-                                <Footer_text>Batafsil...</Footer_text>
+                                <Footer_text>More...</Footer_text>
                                 <Footer_button></Footer_button>
                             </Footer>
                         </Card_item>
@@ -114,7 +114,7 @@ export default function Price_card() {
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Footer>
-                                <Footer_text>Batafsil...</Footer_text>
+                                <Footer_text>More...</Footer_text>
                                 <Footer_button></Footer_button>
                             </Footer>
                         </Card_item>
@@ -147,7 +147,7 @@ export default function Price_card() {
                                 <Flex_price>$130</Flex_price>
                             </Flex>
                             <Footer>
-                                <Footer_text>Batafsil...</Footer_text>
+                                <Footer_text>More...</Footer_text>
                                 <Footer_button></Footer_button>
                             </Footer>
                         </Card_item>

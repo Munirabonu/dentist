@@ -59,4 +59,5 @@ export const Button_footer_text = styled.p`
 `
 export const Img = styled.img`
     width: 100%;
+    box-shadow:none;
 `

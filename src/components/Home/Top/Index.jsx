@@ -33,7 +33,7 @@ export default function Top() {
                         <Text>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Text>
                         <List >
-                            <List_avatar src={dentist}></List_avatar>
+                            <List_avatar src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/quote-2.png'></List_avatar>
                             <List_text>Ava Jarnis</List_text>
                         </List>
                     </Card_item>
@@ -46,7 +46,7 @@ export default function Top() {
                         <Text>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Text>
                         <List>
-                            <List_avatar src={dentist}></List_avatar>
+                            <List_avatar src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/quote-3.png'></List_avatar>
                             <List_text>Ava Jarnis</List_text>
                         </List>
                     </Card_item>
@@ -59,7 +59,7 @@ export default function Top() {
                         <Text>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Text>
                         <List>
-                            <List_avatar src={dentist}></List_avatar>
+                            <List_avatar src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/quote-4.png'></List_avatar>
                             <List_text>Ava Jarnis</List_text>
                         </List>
                     </Card_item>

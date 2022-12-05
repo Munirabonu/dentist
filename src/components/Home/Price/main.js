@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import {CheckLg} from '@styled-icons/bootstrap/CheckLg';
-import {ArrowRightShort} from "@styled-icons/bootstrap/ArrowRightShort"
+import { CheckLg } from '@styled-icons/bootstrap/CheckLg';
+import { ArrowRightShort } from "@styled-icons/bootstrap/ArrowRightShort"
 
 export const Home_page = styled.div`
     margin-top: 80px;
@@ -60,7 +60,7 @@ export const Navbar_text_two = styled.p`
     color: rgb(121,119,123);
     margin: 0;
 `
-export const Button = styled.button `
+export const Button = styled.button`
     padding: 15px 50px;
     background: rgb(169,142,237);
     color: white;
@@ -93,10 +93,9 @@ export const Card_item = styled.div`
 export const Img = styled.img`
     width:50px;
     height:60px;
-    background: rgb(63,213,211);
 `
 export const Text = styled.h2`
-
+    font-size: 27px;
 `
 export const Flex = styled.div`
     width: 100%;
@@ -112,7 +111,7 @@ export const Flex_icon = styled(CheckLg)`
     color:rgb(63,213,211);
     margin: 10px 0;
     `
-export const Flex_text = styled.p `
+export const Flex_text = styled.p`
     align-self: bottom;
     font-size: 13px;
     word-spacing: 3px;
@@ -129,9 +128,9 @@ export const Flex_price = styled.p`
 export const Footer = styled.div`
     display: flex;
     justify-content:space-between;
-    
+    align-items:center;
 `
-export const Footer_text = styled.p` 
+export const Footer_text = styled.div` 
     color:rgb(63,213,211);
     font-size: 17px;
     font-weight: 600;
