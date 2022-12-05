@@ -58,6 +58,10 @@ export const Img = styled.div`
   overflow: hidden;
   margin-left: 80px;
   background-color: white;
+  @media(max-width:768px){
+  margin-left: 10px;
+      
+    }
 `;
 export const Icon = styled.div`
   alt: "asss";

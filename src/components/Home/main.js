@@ -84,6 +84,10 @@ export const BgLeft=styled.img`
 export const BgRight=styled(BgLeft)`
     height:100%;
     left:95%;
+
+    @media (max-width:768px) {
+        display:none;
+    }
 `
 const star=styled(StarBorder)`
     font-weight: 900;
@@ -98,6 +102,7 @@ const star=styled(StarBorder)`
     @media(max-width:425px){
         width: 20px;
     }
+
 
 `
 export const AnimationIcon = styled(star)` 
