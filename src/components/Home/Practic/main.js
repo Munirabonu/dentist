@@ -43,7 +43,7 @@ export const Grid = styled.div`
     grid-template-columns: 100%;
     }
 `
-export const Grid_item = styled.div` 
+export const GridItem = styled.div` 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     color:rgb(25,49,57);
@@ -64,7 +64,7 @@ export const Flex = styled.div`
     display:flex;
     align-items: center;
 `
-export const Flex_icon = styled(CheckLg)`
+export const FlexIcon = styled(CheckLg)`
     width:25px;
     height:25px;
     color:rgb(169,142,237);
@@ -74,6 +74,6 @@ export const Flex_icon = styled(CheckLg)`
     border:1px solid rgb(169,142,237);
     border-radius:50%;
 `
-export const Flex_text = styled.p` 
+export const FlexText = styled.p` 
     color: rgb(128,120,120);
 `

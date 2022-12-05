@@ -18,7 +18,7 @@ import { useHistory } from "react-router-dom";
 import { useEffect } from "react";
 import { data } from "./data";
 
-export default function Doctor_card() {
+export default function DoctorCard() {
   const history = useHistory();
 
   useEffect(() => {

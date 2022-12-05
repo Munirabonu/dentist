@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { data } from "../Doctor_card/data";
+import { data } from "../DoctorCard/data";
 import doc from "../../../img/Icon/doctor.jpg";
 import { Breadcrumb } from 'antd';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import Cosmetic from '../../components/Home/Cosmetic/Cosmetic';
 import Homes from '../../components/Home/Homes';
-import Home_doctor from '../../components/Home/Home_doctor/Index';
+import HomeDoctor from '../../components/Home/HomeDoctor/Index';
 import Implantat from '../../components/Home/Implantat/Index';
-import Off_page from '../../components/Home/Off/Index';
+import OffPage from '../../components/Home/Off/Index';
 import Price from '../../components/Home/Price/Index'
 import Top from '../../components/Home/Top/Index';
 import Hands from '../../components/Home/Hand/Index'
@@ -14,9 +14,9 @@ export default function Home() {
         <div>
             <Homes />
             <Cosmetic />
-            <Home_doctor />
+            <HomeDoctor />
             <Implantat />
-            <Off_page />
+            <OffPage />
             <Price />
             <Top />
             <Hands />

@@ -27,7 +27,7 @@ import { data } from "./data";
 import { useEffect } from "react";
 import { Breadcrumb } from "antd";
 
-export default function Blog_page() {
+export default function BlogPage() {
   const history = useHistory();
   useEffect(() => {
     console.log(data);

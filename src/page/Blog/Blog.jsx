@@ -1,11 +1,11 @@
 import React from 'react'
-import Blog_page from '../../components/Blog/Blog_item/Blog_page'
+import BlogPage from '../../components/Blog/Blog_item/BlogPage'
 import Call from '../../components/Home/Call/Call'
 
 export default function Blog() {
     return (
         <div>
-            <Blog_page />
+            <BlogPage />
             <Call />
         </div>
     )

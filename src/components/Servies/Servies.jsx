@@ -12,7 +12,7 @@ import {
 import services from "../../img/Icon/services.jpg";
 import { Link } from "react-router-dom";
 
-export default function Servies_page() {
+export default function ServiesPage() {
   return (
     <div>
       <HomePage>

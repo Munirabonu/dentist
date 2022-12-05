@@ -105,13 +105,13 @@ export const Flex = styled.div`
     text-align: left;
     border-bottom:${props => props.border ? "none" : "1px solid  rgba(121,119,123, 0.5)"}; 
     `
-export const Flex_icon = styled(CheckLg)`
+export const FlexIcon = styled(CheckLg)`
     width:12px;
     height:12px;
     color:rgb(63,213,211);
     margin: 10px 0;
     `
-export const Flex_text = styled.p`
+export const FlexText = styled.p`
     align-self: bottom;
     font-size: 13px;
     word-spacing: 3px;
@@ -119,7 +119,7 @@ export const Flex_text = styled.p`
     margin: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 `
-export const Flex_price = styled.p`
+export const FlexPrice = styled.p`
     font-size: 13px;
     word-spacing: 3px;
     color: rgb(121,119,123);
@@ -130,12 +130,12 @@ export const Footer = styled.div`
     justify-content:space-between;
     align-items:center;
 `
-export const Footer_text = styled.div` 
+export const FooterText = styled.div` 
     color:rgb(63,213,211);
     font-size: 17px;
     font-weight: 600;
 `
-export const Footer_button = styled(ArrowRightShort)`
+export const FooterBotton = styled(ArrowRightShort)`
     width:35px;
     height:35px;
     color:white;

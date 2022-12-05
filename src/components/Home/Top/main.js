@@ -52,7 +52,7 @@ export const List = styled.div`
     justify-content: center;
     margin-top:20px;
 `
-export const List_avatar = styled.img` 
+export const ListAvatar = styled.img` 
     border-radius:50%;
     width:50px;
     height:50px;

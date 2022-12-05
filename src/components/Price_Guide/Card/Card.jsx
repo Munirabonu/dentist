@@ -5,20 +5,20 @@ import {
   NavbarTextTwo,
   NavbarTextOne,
   Navbar,
-  Flex_price,
+  FlexPrice,
   Card,
   CardItem,
   Img,
   Text,
   Flex,
-  Flex_text,
-  Flex_icon,
+  FlexText,
+  FlexIcon,
   Footer,
-  Footer_button,
-  Footer_text,
+  FooterBotton,
+  FooterText,
 } from "./main";
 
-export default function Price_card() {
+export default function PriceCard() {
   return (
     <div>
       <HomePage>
@@ -35,132 +35,132 @@ export default function Price_card() {
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient den tal check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient den tal check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New pat ient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New pat ient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex border>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dal check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dal check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Footer>
-                <Footer_text>More...</Footer_text>
-                <Footer_button></Footer_button>
+                <FooterText>More...</FooterText>
+                <FooterBotton></FooterBotton>
               </Footer>
             </CardItem>
             <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex border>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Footer>
-                <Footer_text>More...</Footer_text>
-                <Footer_button></Footer_button>
+                <FooterText>More...</FooterText>
+                <FooterBotton></FooterBotton>
               </Footer>
             </CardItem>
             <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex border>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Footer>
-                <Footer_text>More...</Footer_text>
-                <Footer_button></Footer_button>
+                <FooterText>More...</FooterText>
+                <FooterBotton></FooterBotton>
               </Footer>
             </CardItem>
             <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Flex border>
-                <Flex_icon></Flex_icon>
-                <Flex_text>New patient dental check-up</Flex_text>
-                <Flex_price>$130</Flex_price>
+                <FlexIcon></FlexIcon>
+                <FlexText>New patient dental check-up</FlexText>
+                <FlexPrice>$130</FlexPrice>
               </Flex>
               <Footer>
-                <Footer_text>More...</Footer_text>
-                <Footer_button></Footer_button>
+                <FooterText>More...</FooterText>
+                <FooterBotton></FooterBotton>
               </Footer>
             </CardItem>
           </Card>

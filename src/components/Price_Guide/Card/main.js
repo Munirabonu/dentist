@@ -66,18 +66,18 @@ export const Flex = styled.div`
     border-bottom:${props => props.border ? "none" : "1px solid  rgba(121,119,123, 0.2)"}; 
     padding: 5px 0;
     `
-export const Flex_icon = styled(CheckLg)`
+export const FlexIcon = styled(CheckLg)`
     width:18px;
     color:rgb(63,213,211);
     margin: 5px 0px;
     `
-export const Flex_text = styled.p `
+export const FlexText = styled.p `
     font-size: 17px;
     word-spacing: 3px;
     color: rgb(121,119,123);
     margin-left: 15px;  
 `
-export const Flex_price = styled.p`
+export const FlexPrice = styled.p`
     font-size: 17px;
     font-weight: 600;
     color: rgb(11,19,31);
@@ -88,12 +88,12 @@ export const Footer = styled.div`
     justify-content:space-between;
     
 `
-export const Footer_text = styled.p` 
+export const FooterText = styled.p` 
     color:rgb(63,213,211);
     font-size: 17px;
     font-weight: 600;
 `
-export const Footer_button = styled(ArrowRightShort)`
+export const FooterBotton = styled(ArrowRightShort)`
     width:35px;
     height:35px;
     color:white;

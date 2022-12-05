@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-export const Navbar_page = styled.div`
+export const NavbarPage = styled.div`
   display: flex;
   align-items:center;
   box-shadow:0px 1px 10px white;

@@ -72,7 +72,7 @@ export const Text = styled.p`
     font-weight: 500;
     margin-top: 50PX;
 `
-export const Item_text = styled.p`
+export const ItemText = styled.p`
     font-size: 17px;
     color: grey;
     line-height: 25px;

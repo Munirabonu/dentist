@@ -6,7 +6,7 @@ import {
   Drop,
   Link,
   Img,
-  Navbar_page,
+  NavbarPage,
   Ul,
   Item,
   activeStyle,
@@ -15,7 +15,7 @@ import logo from "../../img/Icon/dental/logo.png";
 
 export default function Navbars() {
   return (
-    <Navbar_page>
+    <NavbarPage>
       <Containers>
         <Img>
           <Link to="/">
@@ -65,6 +65,6 @@ export default function Navbars() {
           </Container>
         </Navbar>
       </Drop>
-    </Navbar_page>
+    </NavbarPage>
   );
 }

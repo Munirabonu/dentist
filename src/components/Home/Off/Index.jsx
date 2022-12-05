@@ -17,7 +17,7 @@ import {
 import home from "../../../img/Icon/home-11.jpg";
 import { Link } from "react-router-dom";
 
-export default function Off_page() {
+export default function OffPage() {
   return (
     <div>
       <HomePage>

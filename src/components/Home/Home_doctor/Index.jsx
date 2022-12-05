@@ -13,7 +13,7 @@ import {
 } from "./main";
 import doctor from "../../../img/Icon/home-doctor.jpg";
 import { Link } from "react-router-dom";
-export default function Home_doctor() {
+export default function HomeDoctor() {
   return (
     <div>
       <HomePage>
