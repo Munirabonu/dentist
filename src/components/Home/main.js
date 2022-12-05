@@ -85,7 +85,7 @@ export const BgRight=styled(BgLeft)`
     height:100%;
     left:95%;
 
-    @media (max-width:768px) {
+    @media (max-width:1024px) {
         display:none;
     }
 `
