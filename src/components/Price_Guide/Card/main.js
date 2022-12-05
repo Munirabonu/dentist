@@ -26,7 +26,7 @@ export const NavbarTextOne = styled.p`
     font-size: 30px;
     margin-bottom: 10px;
 `
-export const NavbarText_two = styled.p`
+export const NavbarTextTwo = styled.p`
     font-size: 16px;
     word-spacing: 3px;
     color: rgb(121,119,123);
@@ -40,7 +40,7 @@ export const Card = styled.div`
         grid-template-columns: 100%;
     }
     `
-export const Card_item = styled.div`
+export const CardItem = styled.div`
     border: 1px solid  rgba(121,119,123, 0.5);
     border-radius: 6px;
     padding:50px;

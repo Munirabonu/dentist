@@ -56,7 +56,7 @@ export const Icon = styled(PlusCircle)`
             color:rgb(169,142,237);
             width:30px;
         `
-export const Icon_Text = styled.p`
+export const IconText = styled.p`
             color:rgb(56,13,40);
             font-size: 18px;
             margin:0;

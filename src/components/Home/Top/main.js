@@ -11,7 +11,7 @@ export const NavbarTextOne = styled.p`
     font-size:30px;
     margin:10px 0;
 `
-export const NavbarText_two = styled.p`
+export const NavbarTextTwo = styled.p`
     font-size:15px;
     margin:20px 0;
 `
@@ -29,7 +29,7 @@ export const Card = styled.div`
     }
     
 `
-export const Card_item = styled.div` 
+export const CardItem = styled.div` 
     width:90%;
     margin:0 auto;
 `
@@ -59,6 +59,6 @@ export const List_avatar = styled.img`
     /* background:blue; */
     margin-right:20px;
 `
-export const List_text = styled.p` 
+export const ListText = styled.p` 
 
 `

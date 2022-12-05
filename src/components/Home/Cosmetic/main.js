@@ -53,9 +53,7 @@ export const ImgItem = styled.div `
             position: absolute;
             width :100px;
             height: 100px;
-            bottom: -50px;
-            
-            background: ${(props) => props.one ? 'url(${animation1})':'url(${animation})'};  
+            bottom: -50px;            
             background:url(${animation3}) ;  
             background-color: white;
 

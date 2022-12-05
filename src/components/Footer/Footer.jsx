@@ -8,8 +8,8 @@ import {
   Item,
   Link,
   Flex,
-  Flex_item,
-  Footer_bottom,
+  FlexItem,
+  FooterBottom,
   Icons,
   Facebooks,
   Instagrams,
@@ -65,28 +65,28 @@ export default function Footer() {
         <Opens>
           <h3>Open</h3>
           <Flex>
-            <Flex_item>Dushanba</Flex_item>
-            <Flex_item>8:30 - 17:00</Flex_item>
+            <FlexItem>Dushanba</FlexItem>
+            <FlexItem>8:30 - 17:00</FlexItem>
           </Flex>
           <Flex>
-            <Flex_item>Dushanba</Flex_item>
-            <Flex_item>8:30 - 17:00</Flex_item>
+            <FlexItem>Dushanba</FlexItem>
+            <FlexItem>8:30 - 17:00</FlexItem>
           </Flex>
           <Flex>
-            <Flex_item>Dushanba</Flex_item>
-            <Flex_item>8:30 - 17:00</Flex_item>
+            <FlexItem>Dushanba</FlexItem>
+            <FlexItem>8:30 - 17:00</FlexItem>
           </Flex>
           <Flex>
-            <Flex_item>Dushanba</Flex_item>
-            <Flex_item>8:30 - 17:00</Flex_item>
+            <FlexItem>Dushanba</FlexItem>
+            <FlexItem>8:30 - 17:00</FlexItem>
           </Flex>
           <Flex>
-            <Flex_item>Dushanba</Flex_item>
-            <Flex_item>8:30 - 17:00</Flex_item>
+            <FlexItem>Dushanba</FlexItem>
+            <FlexItem>8:30 - 17:00</FlexItem>
           </Flex>
         </Opens>
       </Container>
-      <Footer_bottom>
+      <FooterBottom>
         <p>
           This is a sample website – cmsmasters © 2022 / All Rights Reserved
         </p>
@@ -95,7 +95,7 @@ export default function Footer() {
           <Instagrams />
           <Twitters />
         </Icons>
-      </Footer_bottom>
+      </FooterBottom>
     </div>
   );
 }

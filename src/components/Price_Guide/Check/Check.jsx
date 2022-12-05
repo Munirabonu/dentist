@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, NavbarTextOne, NavbarText_two, Card, Icon, Text, Texts, Card_item, Button } from './main';
+import { Container, Navbar, NavbarTextOne, NavbarTextTwo, Card, Icon, Text, Texts, CardItem, Button } from './main';
 import dentist from '../../../img/Icon/servies.jpg';
 import { Link } from 'react-router-dom';
 
@@ -9,31 +9,31 @@ export default function Check() {
             <Container>
                 <Navbar>
                     <NavbarTextOne>Top Reviews</NavbarTextOne>
-                    <NavbarText_two>More than 250 five-star reviews on Google</NavbarText_two>
+                    <NavbarTextTwo>More than 250 five-star reviews on Google</NavbarTextTwo>
                 </Navbar>
                 <Card>
-                    <Card_item>
+                    <CardItem>
                         <Icon src={dentist} />
                         <Text>Excellence in Basic Dental Care</Text>
                         <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Texts>
                         <Link to='/doctors'><Button>Price Guide</Button></Link>
-                    </Card_item>
-                    <Card_item>
+                    </CardItem>
+                    <CardItem>
                         <Icon src={dentist} />
                         <Text>Excellence in Basic Dental Care</Text>
                         <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Texts>
                         <Link to='/doctors'><Button>Price Guide</Button></Link>
 
-                    </Card_item>
-                    <Card_item>
+                    </CardItem>
+                    <CardItem>
                         <Icon src={dentist} />
                         <Text>Excellence in Basic Dental Care</Text>
                         <Texts>The best dental care I have ever experienced! Professional and friendly staff made me feel like family… would highly recommend to anyone!!!
                         </Texts>
                         <Link to='/doctors'><Button>Price Guide</Button></Link>
-                    </Card_item>
+                    </CardItem>
                 </Card>
             </Container>
         </div>

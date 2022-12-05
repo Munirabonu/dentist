@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, NavbarTextOne, NavbarText_two, Card, Icon, Text, List, List_avatar, List_text ,Card_item} from './main';
+import { Container, Navbar, NavbarTextOne, NavbarTextTwo, Card, Icon, Text, List, List_avatar, ListText ,CardItem} from './main';
 import dentist from '../../../img/Icon/quote-1.png';
 
 export default function Top() {
@@ -8,10 +8,10 @@ export default function Top() {
             <Container>
                 <Navbar>
                     <NavbarTextOne>Top Reviews</NavbarTextOne>
-                    <NavbarText_two>More than 250 five-star reviews on Google</NavbarText_two>
+                    <NavbarTextTwo>More than 250 five-star reviews on Google</NavbarTextTwo>
                 </Navbar>
                 <Card>
-                    <Card_item>
+                    <CardItem>
                         <Icon />
                         <Icon />
                         <Icon />
@@ -21,10 +21,10 @@ export default function Top() {
                         </Text>
                         <List>
                             <List_avatar src={dentist}></List_avatar>
-                            <List_text>Ava Jarnis</List_text>
+                            <ListText>Ava Jarnis</ListText>
                         </List>
-                    </Card_item>
-                    <Card_item>
+                    </CardItem>
+                    <CardItem>
                         <Icon />
                         <Icon />
                         <Icon />
@@ -34,10 +34,10 @@ export default function Top() {
                         </Text>
                         <List >
                             <List_avatar src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/quote-2.png'></List_avatar>
-                            <List_text>Ava Jarnis</List_text>
+                            <ListText>Ava Jarnis</ListText>
                         </List>
-                    </Card_item>
-                    <Card_item>
+                    </CardItem>
+                    <CardItem>
                         <Icon />
                         <Icon />
                         <Icon />
@@ -47,10 +47,10 @@ export default function Top() {
                         </Text>
                         <List>
                             <List_avatar src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/quote-3.png'></List_avatar>
-                            <List_text>Ava Jarnis</List_text>
+                            <ListText>Ava Jarnis</ListText>
                         </List>
-                    </Card_item>
-                    <Card_item>
+                    </CardItem>
+                    <CardItem>
                         <Icon />
                         <Icon />
                         <Icon />
@@ -60,9 +60,9 @@ export default function Top() {
                         </Text>
                         <List>
                             <List_avatar src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2021/06/quote-4.png'></List_avatar>
-                            <List_text>Ava Jarnis</List_text>
+                            <ListText>Ava Jarnis</ListText>
                         </List>
-                    </Card_item>
+                    </CardItem>
                     
                 </Card>
             </Container>

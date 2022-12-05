@@ -25,7 +25,7 @@ export const Icon = styled(SecurePayment)`
     height:30px;
     color:rgb(63,213,211);
 `
-export const Icon_text = styled.div` 
+export const IconText = styled.div` 
     font-weight: 700;
     font-size:20px;
     background: -webkit-linear-gradient(rgb(138,43,226), rgb(63,213,211));

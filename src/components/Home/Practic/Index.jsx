@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container ,Icons,Icon_text , Icon , Grid , Grid_item , TextOne , TextTwo,Flex,Flex_icon,Flex_text} from './main';
+import { Container ,Icons,IconText , Icon , Grid , Grid_item , TextOne , TextTwo,Flex,Flex_icon,Flex_text} from './main';
 
 export default function Practic() {
     return (
@@ -7,7 +7,7 @@ export default function Practic() {
             <Container>
                 <Icons>
                     <Icon></Icon>
-                    <Icon_text>Covid Secure</Icon_text>
+                    <IconText>Covid Secure</IconText>
                 </Icons>
                 <Grid>
                     <Grid_item>

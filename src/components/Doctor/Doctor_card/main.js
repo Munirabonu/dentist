@@ -53,7 +53,7 @@ export const Icon = styled(CheckLg)`
     color:rgb(63,213,211);
     margin: 10px;
 `
-export const List_text = styled.p`
+export const ListText = styled.p`
     align-self: bottom;
     font-size: 15px;
     word-spacing: 3px;

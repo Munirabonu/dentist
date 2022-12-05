@@ -5,7 +5,7 @@ import {
   Icon,
   Img,
   List,
-  List_text,
+  ListText,
   Texts,
   TextOne,
   TextTwo,
@@ -36,15 +36,15 @@ export default function Doctor_card() {
               <TextTwo>{doctor.job}</TextTwo>
               <List>
                 <Icon></Icon>
-                <List_text>{doctor.skill1}</List_text>
+                <ListText>{doctor.skill1}</ListText>
               </List>
               <List>
                 <Icon></Icon>
-                <List_text>{doctor.skill2}</List_text>
+                <ListText>{doctor.skill2}</ListText>
               </List>
               <List>
                 <Icon></Icon>
-                <List_text>{doctor.skill3}</List_text>
+                <ListText>{doctor.skill3}</ListText>
               </List>
               <Button onClick={() => {
                       history.push(`/doctors/${doctor.id}`);

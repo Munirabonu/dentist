@@ -19,7 +19,7 @@ export const NavbarTextOne = styled.h3`
     margin:10px 0;
     color: rgb(63,213,211);
 `
-export const NavbarText_two = styled.p`
+export const NavbarTextTwo = styled.p`
     font-weight: 500;
     font-size:30px;
 
@@ -38,7 +38,7 @@ export const Card = styled.div`
     }
     
 `
-export const Card_item = styled.div` 
+export const CardItem = styled.div` 
     width:90%;
     margin:0 auto;
     /* justify-content: center; */

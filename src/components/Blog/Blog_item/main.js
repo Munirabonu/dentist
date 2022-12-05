@@ -97,10 +97,10 @@ export const Icon = styled(Newsletter)`
     color :rgb(169,142,237);
     width: 80px;
 `
-export const New_TextOne =styled.div` 
+export const NewTextOne =styled.div` 
     font-size:30px;
 `
-export const New_text_two =styled.div` 
+export const NewTextTwo =styled.div` 
     font-size:16px;
     color:rgb(132,135,135);
     margin-top: 10px;

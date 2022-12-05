@@ -33,7 +33,7 @@ export const Text = styled.div`
         padding:50px;
     }
     `
-export const Text_p = styled.div`
+export const TextP = styled.div`
     font-size: 70px;
     line-height: 0.97;
     @media (max-width:1200px){
@@ -49,7 +49,7 @@ export const Text_p = styled.div`
         font-size: 30px;
     }
     `
-export const Smile_text = styled.p`
+export const SmileText = styled.p`
      font-size: 20px;
      margin:2rem 0;
     @media (max-width:600px) {
@@ -72,7 +72,7 @@ export const ImgItem = styled.div`
     z-index: 3;
         
 `
-export const Bg_left=styled.img`
+export const BgLeft=styled.img`
     width:20%;
     height:40%;
     position:absolute;
@@ -81,7 +81,7 @@ export const Bg_left=styled.img`
     z-index:4;    
     box-shadow:none;
 `
-export const Bg_right=styled(Bg_left)`
+export const BgRight=styled(BgLeft)`
     height:100%;
     left:95%;
 `
@@ -122,7 +122,7 @@ export const AnimationIcon3 = styled(star)`
     height: 30px;
     animation-delay: 3s;
 `
-export const Top_animation_icon1 = styled(star)` 
+export const TopAnimationIcon1 = styled(star)` 
     top:-50px;
     left: 0;
     width:30px;
@@ -132,7 +132,7 @@ export const Top_animation_icon1 = styled(star)`
  `
 
 
-export const Top_animation_icon2 = styled(star)` 
+export const TopAnimationIcon2 = styled(star)` 
     top:0px;
     left: -50px;
     width:50px;
@@ -141,7 +141,7 @@ export const Top_animation_icon2 = styled(star)`
 
 `
 
-export const Top_animation_icon3 = styled(star)` 
+export const TopAnimationIcon3 = styled(star)` 
     top:-15px;
     left: 20px;
     width:40px;
@@ -167,7 +167,7 @@ export const Icon = styled(PhoneCall)`
     border:2px solid white;
     border-radius:50%;
 `
-export const Icon_text = styled.p`
+export const IconText = styled.p`
     color:white;
     font-size: 15px;
     display:inline;

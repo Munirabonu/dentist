@@ -110,7 +110,7 @@ export const Icon = styled(PhoneCall)`
     display:inline-block;
     margin:2px;
 `
-export const Icon_text = styled.p`
+export const IconText = styled.p`
     color:rgb(169,142,237);
     font-size: 15px;
     display:inline;

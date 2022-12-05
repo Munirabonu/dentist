@@ -64,7 +64,7 @@ export const Icon = styled.div`
   width: 100px;
   position: relative;
 `;
-export const Icon_text = styled.div`
+export const IconText = styled.div`
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 25px;

@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import {
   HomePage,
   Container,
-  NavbarText_two,
+  NavbarTextTwo,
   NavbarText,
   NavbarTextOne,
   Button,
   Navbar,
   Flex_price,
   Card,
-  Card_item,
+  CardItem,
   Img,
   Text,
   Flex,
@@ -29,17 +29,17 @@ export default function Price() {
           <Navbar>
             <NavbarText>
               <NavbarTextOne>Price Guide</NavbarTextOne>
-              <NavbarText_two>
+              <NavbarTextTwo>
                 We treat every patient as an individual and create treatment
                 plans to fit your specific needs.
-              </NavbarText_two>
+              </NavbarTextTwo>
             </NavbarText>
             <Link style={{ color: "white" }} to="/price" exact>
               <Button>More..</Button>
             </Link>
           </Navbar>
           <Card>
-            <Card_item>
+            <CardItem>
               <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2022/08/003-braces.svg'></Img>
               <Text>Dental Essentials</Text>
               <Flex>
@@ -71,8 +71,8 @@ export default function Price() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
-            <Card_item>
+            </CardItem>
+            <CardItem>
               <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2022/08/022-implant.svg' />
               <Text>Hygiene Treatments</Text>
               <Flex>
@@ -104,8 +104,8 @@ export default function Price() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
-            <Card_item>
+            </CardItem>
+            <CardItem>
               <Img src='https://healthy-smiles.cmsmasters.net/beta/wp-content/uploads/sites/3/2022/08/014-dentist-chair-1.svg'/>
               <Text>Cosmetic Treatment</Text>
               <Flex>
@@ -137,7 +137,7 @@ export default function Price() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
+            </CardItem>
           </Card>
         </Container>
       </HomePage>

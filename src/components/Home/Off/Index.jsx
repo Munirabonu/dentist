@@ -9,7 +9,7 @@ import {
   TextTwo,
   TextThree,
   Button,
-  Icon_text,
+  IconText,
   Call,
   Right,
   Border,
@@ -41,7 +41,7 @@ export default function Off_page() {
               </Link>
               <Call href="tel">
                 <Icon></Icon>
-                <Icon_text>1-33-1212-121</Icon_text>
+                <IconText>1-33-1212-121</IconText>
               </Call>
             </Text>
           </Container>

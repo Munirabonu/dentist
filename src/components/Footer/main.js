@@ -58,13 +58,13 @@ export const Flex = styled.div`
     display: flex;
     justify-content: space-between;
 `
-export const Flex_item = styled.p` 
+export const FlexItem = styled.p` 
     font-size: 18px;
     margin-top: 15px;
     color:${(props) => props.active ? "rgb(120,128,120)" : "rgb(132, 138, 143)"} ;
 `
 
-export const Footer_bottom = styled.div`
+export const FooterBottom = styled.div`
     width: 90%;
     margin: 0px auto;
     padding: 10px 0;

@@ -14,8 +14,8 @@ import {
   NavbarLink,
   NavbarText,
   News,
-  New_TextOne,
-  New_text_two,
+  NewTextOne,
+  NewTextTwo,
   Right,
   TextOne,
   Button,
@@ -86,10 +86,10 @@ export default function Blog_page() {
             </ListItem>
             <News>
               <Icon></Icon>
-              <New_TextOne>Newsletter Signup</New_TextOne>
-              <New_text_two>
+              <NewTextOne>Newsletter Signup</NewTextOne>
+              <NewTextTwo>
                 Get weekly health information and advice from our experts.
-              </New_text_two>
+              </NewTextTwo>
             </News>
           </Right>
         </Grid>

@@ -2,12 +2,12 @@ import React from "react";
 import {
   HomePage,
   Container,
-  NavbarText_two,
+  NavbarTextTwo,
   NavbarTextOne,
   Navbar,
   Flex_price,
   Card,
-  Card_item,
+  CardItem,
   Img,
   Text,
   Flex,
@@ -25,13 +25,13 @@ export default function Price_card() {
         <Container>
           <Navbar>
             <NavbarTextOne>Price Guide</NavbarTextOne>
-            <NavbarText_two>
+            <NavbarTextTwo>
               We treat every pat ient as an individual and create treatment
               plans to fit your specific needs.
-            </NavbarText_two>
+            </NavbarTextTwo>
           </Navbar>
           <Card>
-            <Card_item>
+            <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
@@ -63,8 +63,8 @@ export default function Price_card() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
-            <Card_item>
+            </CardItem>
+            <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
@@ -96,8 +96,8 @@ export default function Price_card() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
-            <Card_item>
+            </CardItem>
+            <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
@@ -129,8 +129,8 @@ export default function Price_card() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
-            <Card_item>
+            </CardItem>
+            <CardItem>
               <Img></Img>
               <Text>Dental Essentials</Text>
               <Flex>
@@ -162,7 +162,7 @@ export default function Price_card() {
                 <Footer_text>More...</Footer_text>
                 <Footer_button></Footer_button>
               </Footer>
-            </Card_item>
+            </CardItem>
           </Card>
         </Container>
       </HomePage>
